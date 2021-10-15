@@ -1,21 +1,28 @@
+$color: rgb(255, 255, 255);
+$text-shadow: 3px 4px 4px rgb(0, 0, 0);
+$margen-top: 2%;
+$margen-left: 15%;
+$position: relative;
+$font-size: 100px;
+
 .portada-inicio {
     display: flex;
-    margin-top: 1%;
-    margin-left: 5%;
+    margin-top: $margen-top/2;
+    margin-left: $margen-left/3;
 }
 
 .titulo-inicio {
-    position: relative;
-    color: white;
-	text-shadow: 3px 4px 4px black;
-	font-size: 100px;
+    position: $position;
+    color: $color;
+	text-shadow: $text-shadow;
+	font-size: ($font-size*10)-900;
     text-decoration: underline;
 }
 
 .texto-inicio {
-    position: relative;
-    color: white;
-    text-shadow: 3px 4px 4px black;
-    margin-top: 1%;
+    position: $position;
+    color: $color;
+    text-shadow: $text-shadow;
+    margin-top: $margen-top/2;
     margin-bottom: 2%;
 }
