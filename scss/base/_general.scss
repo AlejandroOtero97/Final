@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+body {
+    width: 100%;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
