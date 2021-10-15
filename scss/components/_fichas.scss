@@ -1,0 +1,72 @@
+.container__entrenamientos {
+	max-width: 80rem;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.ficha {
+	background-color: #d36c17;
+    color: black;
+	border-radius: 15px;
+    border: 1px solid white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 2rem; 
+    margin-top: 2rem;
+}
+
+.ficha__2 {
+	background-color: #470e5e;
+    color: white;
+	border-radius: 15px;
+    border: 1px solid white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.ficha__imagen__izquierda {
+    width: 25rem;
+	height: 12rem;
+	margin-right: 30px;
+    border: 1px solid white;
+}
+
+.ficha__imagen_derecha {
+    width: 25rem;
+	height: 12rem;
+    border: 1px solid white;
+}
+
+.ficha__titulo {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.ficha__parrafo {
+	line-height: 28px;
+	font-size: 1.7rem;
+}
+
+.ficha__parrafo__2 {
+	line-height: 28px;
+	font-size: 1.7rem;
+    margin-right: 25rem;
+}
+
+.button__ficha{
+	height: 60px;
+	padding: 20px;
+	background-color: rgb(255, 215, 36);
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	position: absolute;
+	right: 20px;
+	bottom: -25px;
+}

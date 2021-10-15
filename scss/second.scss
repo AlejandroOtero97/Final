@@ -8,27 +8,8 @@
 @import "./components/tienda";
 @import "./components/portada";
 @import "./components/staff";
+@import "./components/fichas";
 
 
 /* Nueva Seccion de 0 via SASS */
 
-
-.container__entrenamientos {
-	max-width: 80rem;
-	width: 100%;
-	margin: 0 auto;
-    
-}
-
-.ficha {
-	background-color: #d36c17;
-    color: black;
-	border-radius: 15px;
-    border: 1px solid white;
-	padding: 20px;
-	display: flex;
-	align-items: center;
-	position: relative;
-	margin-bottom: 50px; 
-    font-size: larger;
-}
