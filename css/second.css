@@ -22,27 +22,25 @@ body {
   background: linear-gradient(90deg, rgba(0, 93, 255, 0.5) 0%, rgba(236, 250, 5, 0.5) 58%, rgba(3, 255, 3, 0.5) 100%);
   height: 5.5rem; }
 
-ul {
-  list-style: none;
+.nav-ul {
   display: flex; }
 
-li {
+.nav-ul li {
   list-style: none; }
 
-a {
+.nav-ul li a {
   text-decoration: none;
-  color: black; }
-
-ul li a {
+  color: black;
   padding: 2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.2em; }
 
 .nav-ul li a:hover {
   color: #ff3c01;
   background-color: white;
   transition: 350ms ease;
   border: 1px solid black;
-  opacity: 60%; }
+  opacity: 70%; }
 
 #nav-bar {
   overflow: hidden; }
@@ -261,9 +259,22 @@ footer {
   max-width: 80rem;
   width: 100%;
   margin: 0 auto; }
+  .container__entrenamientos img:hover {
+    transform: scale(1.3);
+    transition: ease 0.2s; }
+  .container__entrenamientos a {
+    height: 60px;
+    padding: 20px;
+    background-color: #ffd724;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    bottom: -25px; }
 
 .ficha {
-  background-color: #d36c17;
+  background: linear-gradient(90deg, #005dff 0%, rgba(236, 250, 5, 0.8) 58%, rgba(3, 255, 3, 0.5) 100%);
   color: black;
   border-radius: 15px;
   border: 1px solid white;
@@ -273,9 +284,17 @@ footer {
   position: relative;
   margin-bottom: 2rem;
   margin-top: 2rem; }
+  .ficha p {
+    line-height: 1em;
+    font-size: 1.4em; }
+  .ficha img {
+    width: 25rem;
+    height: 12rem;
+    margin-right: 3rem;
+    border: 1px solid white; }
 
 .ficha__2 {
-  background-color: #470e5e;
+  background: linear-gradient(90deg, #005dff 0%, rgba(236, 250, 5, 0.8) 58%, rgba(3, 255, 3, 0.5) 100%);
   color: white;
   border-radius: 15px;
   border: 1px solid white;
@@ -285,40 +304,20 @@ footer {
   position: relative;
   margin-bottom: 2rem;
   margin-top: 1rem; }
+  .ficha__2 p {
+    line-height: 28px;
+    font-size: 1.7rem;
+    margin-right: 25rem; }
+  .ficha__2 img {
+    width: 25rem;
+    height: 12rem;
+    border: 1px solid white; }
 
-.ficha__imagen__izquierda {
-  width: 25rem;
-  height: 12rem;
-  margin-right: 30px;
-  border: 1px solid white; }
-
-.ficha__imagen_derecha {
-  width: 25rem;
-  height: 12rem;
-  border: 1px solid white; }
-
-.ficha__titulo {
-  font-size: 2rem;
-  margin-bottom: 20px; }
-
-.ficha__parrafo {
-  line-height: 28px;
-  font-size: 1.7rem; }
-
-.ficha__parrafo__2 {
-  line-height: 28px;
-  font-size: 1.7rem;
-  margin-right: 25rem; }
-
-.button__ficha {
-  height: 60px;
-  padding: 20px;
-  background-color: #ffd724;
-  color: white;
-  display: inline-block;
-  text-decoration: none;
-  position: absolute;
-  right: 20px;
-  bottom: -25px; }
+.text__ficha {
+  margin-left: 2rem; }
+  .text__ficha h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    text-decoration: underline; }
 
 /* Nueva Seccion de 0 via SASS */

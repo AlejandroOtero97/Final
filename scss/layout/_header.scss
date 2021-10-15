@@ -7,23 +7,20 @@
     height: 5.5rem;
 }
 
-ul {
-    list-style: none;
+.nav-ul {
     display: flex;
 }
 
-li {
+.nav-ul li {
     list-style: none;
 }
 
-a {
+.nav-ul li a {
     text-decoration: none;
     color: black;
-}
-
-ul li a {
     padding: 2rem;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 .nav-ul li a:hover {
@@ -31,7 +28,7 @@ ul li a {
     background-color: rgb(255, 255, 255);
     transition: 350ms ease;
     border: 1px solid rgb(0, 0, 0);
-    opacity: 60%;
+    opacity: 70%;
 }
 
 #nav-bar {
