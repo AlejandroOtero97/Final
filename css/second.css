@@ -10,7 +10,9 @@ body {
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  font-size: larger; }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 .container {
   display: grid;
@@ -54,9 +56,11 @@ ul li a {
   width: 3.5rem;
   margin-left: 4rem; }
 
+footer {
+  margin-top: auto; }
+
 .footer {
   background: rgba(0, 0, 0, 0.918);
-  position: fixed;
   opacity: 85%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -254,3 +258,19 @@ ul li a {
   font-size: 1.5em; }
 
 /* Nueva Seccion de 0 via SASS */
+.container__entrenamientos {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto; }
+
+.ficha {
+  background-color: #d36c17;
+  color: black;
+  border-radius: 15px;
+  border: 1px solid white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  font-size: larger; }
