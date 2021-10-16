@@ -2,51 +2,42 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-content: center;
-}
-
-.turnos-contenido {
-    background: rgb(255, 255, 255);
-    margin-left: 20%;
-    margin-top: 3%;
-    width: 150%;
-    padding-bottom: 1%;
-    border-radius: 10px;
-}
-
-.content-table {
-    border-collapse: collapse;
-    margin: 0.5% 13%;
-    border-radius: 10px 10px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-
-.content-table thead tr {
-    background-color: rgb(10, 63, 52);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bold;
-}
-
-.content-table th,
-.content-table td{
-    padding:20px 40px;
-}
-
-.content-table tbody tr {
-    border-bottom: 1px solid gray;
-}
-
-.content-table tbody tr:nth-of-type(even) {
-    background-color: #e2dcdc;
-}
-
-.content-table tbody tr:last-of-type {
-    border-bottom: 4px solid rgb(10, 63, 52);
-}
-
-.titulo-tabla {
-    text-align-last: center;
-    color: orangered;
-    text-decoration: underline;
+    .turnos-contenido {
+        background: rgb(255, 255, 255);
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 150%;
+        padding-bottom: 1%;
+        border-radius: 10px;
+        h1 {
+            text-align-last: center;
+            color: orangered;
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0.5% 13%;
+            border-radius: 10px 10px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            thead tr {
+                background-color: rgb(10, 63, 52);
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-weight: bold;
+            }
+            th, td{
+                padding:20px 40px;
+            }
+            tbody tr {
+                border-bottom: 1px solid gray;
+            }
+            tbody tr:nth-of-type(even) {
+                background-color: #e2dcdc;
+            }
+            tbody tr:last-of-type {
+                border-bottom: 4px solid rgb(10, 63, 52);
+            }
+        }
+    }
 }

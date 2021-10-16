@@ -169,45 +169,36 @@ button:focus {
   display: grid;
   grid-template-columns: 50% 50%;
   align-content: center; }
-
-.turnos-contenido {
-  background: white;
-  margin-left: 20%;
-  margin-top: 3%;
-  width: 150%;
-  padding-bottom: 1%;
-  border-radius: 10px; }
-
-.content-table {
-  border-collapse: collapse;
-  margin: 0.5% 13%;
-  border-radius: 10px 10px 0 0;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
-
-.content-table thead tr {
-  background-color: #0a3f34;
-  color: white;
-  text-align: center;
-  font-weight: bold; }
-
-.content-table th,
-.content-table td {
-  padding: 20px 40px; }
-
-.content-table tbody tr {
-  border-bottom: 1px solid gray; }
-
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #e2dcdc; }
-
-.content-table tbody tr:last-of-type {
-  border-bottom: 4px solid #0a3f34; }
-
-.titulo-tabla {
-  text-align-last: center;
-  color: orangered;
-  text-decoration: underline; }
+  .turnos1 .turnos-contenido {
+    background: white;
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 150%;
+    padding-bottom: 1%;
+    border-radius: 10px; }
+    .turnos1 .turnos-contenido h1 {
+      text-align-last: center;
+      color: orangered;
+      text-decoration: underline; }
+    .turnos1 .turnos-contenido table {
+      border-collapse: collapse;
+      margin: 0.5% 13%;
+      border-radius: 10px 10px 0 0;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+      .turnos1 .turnos-contenido table thead tr {
+        background-color: #0a3f34;
+        color: white;
+        text-align: center;
+        font-weight: bold; }
+      .turnos1 .turnos-contenido table th, .turnos1 .turnos-contenido table td {
+        padding: 20px 40px; }
+      .turnos1 .turnos-contenido table tbody tr {
+        border-bottom: 1px solid gray; }
+      .turnos1 .turnos-contenido table tbody tr:nth-of-type(even) {
+        background-color: #e2dcdc; }
+      .turnos1 .turnos-contenido table tbody tr:last-of-type {
+        border-bottom: 4px solid #0a3f34; }
 
 .cont {
   display: grid;
