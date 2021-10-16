@@ -255,6 +255,7 @@ footer {
   color: white;
   font-size: 1.5em; }
 
+/* Nueva Seccion de 0 via SASS */
 .container__entrenamientos {
   max-width: 80rem;
   width: 100%;
@@ -319,5 +320,3 @@ footer {
     font-size: 2em;
     margin-bottom: 0.2em;
     text-decoration: underline; }
-
-/* Nueva Seccion de 0 via SASS */
