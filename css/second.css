@@ -289,7 +289,7 @@ footer {
     margin-top: 2rem; }
     .container__entrenamientos .ficha p {
       line-height: 1em;
-      font-size: 1.4em; }
+      font-size: 2em; }
     .container__entrenamientos .ficha img {
       width: 25rem;
       height: 12rem;
@@ -316,6 +316,10 @@ footer {
       border: 1px solid white; }
   .container__entrenamientos .text__ficha {
     margin-left: 2rem; }
+    .container__entrenamientos .text__ficha ol li {
+      list-style: none;
+      margin-top: 1%;
+      font-size: 18px; }
     .container__entrenamientos .text__ficha h2 {
       font-size: 2em;
       margin-bottom: 0.2em;

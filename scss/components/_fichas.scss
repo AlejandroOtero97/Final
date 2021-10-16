@@ -15,7 +15,8 @@
         margin-top: 2rem;
         p {
             line-height: 1em;
-            font-size: 1.4em;
+            font-size: 2em;
+
         }
         img {
             width: 25rem;
@@ -48,10 +49,16 @@
     }
     .text__ficha {
         margin-left: 2rem;
+        ol li {
+            list-style: none;
+            margin-top: 1%;
+            font-size: 18px;
+        }
         h2 {
             font-size: 2em;
             margin-bottom: 0.2em;
             text-decoration: underline;
+            
         }
     }
     img:hover {
