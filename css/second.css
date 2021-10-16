@@ -14,28 +14,27 @@ body {
   display: flex;
   flex-direction: column; }
 
-.button {
-  color: white;
-  background-color: orangered;
-  border-radius: 10px;
-  font-size: 15px;
-  padding: 5px;
-  cursor: pointer; }
-
 .container__nav {
   display: grid;
   grid-template-columns: 6fr 2fr 3fr;
   align-items: center;
-  background: #005dff;
-  background: linear-gradient(90deg, rgba(0, 93, 255, 0.5) 0%, rgba(236, 250, 5, 0.5) 58%, rgba(3, 255, 3, 0.5) 100%);
-  height: 5.2rem; }
-  .container__nav .logo img {
-    height: 5.5rem;
-    width: 9rem; }
+  background: rgba(0, 0, 0, 0.918);
+  opacity: 85%;
+  height: 6rem; }
+  .container__nav label.logo {
+    color: white;
+    font-size: 2.5em;
+    line-height: 80px;
+    padding: 0 60px;
+    font-weight: bolder;
+    text-decoration: line-through; }
+    .container__nav label.logo a {
+      text-decoration: none;
+      color: white; }
   .container__nav .logo2 img {
-    height: 3.5rem;
-    width: 3.5rem;
-    margin-left: 4rem; }
+    height: 6rem;
+    width: 6rem;
+    margin-left: 13rem; }
   .container__nav .logo2 li {
     list-style: none; }
   .container__nav .nav-ul {
@@ -43,16 +42,18 @@ body {
     .container__nav .nav-ul li {
       list-style: none; }
     .container__nav .nav-ul li a {
+      margin-left: 1.8rem;
       text-decoration: none;
-      color: black;
-      padding: 2rem;
-      font-weight: bold;
-      font-size: 1.2em; }
+      text-transform: uppercase;
+      color: white;
+      padding: 7px 13px;
+      font-weight: 900;
+      font-size: 1.4em; }
     .container__nav .nav-ul li a:hover {
-      color: #ff3c01;
+      color: black;
       background-color: white;
       transition: 350ms ease;
-      opacity: 70%; }
+      opacity: 80%; }
 
 #nav-bar {
   overflow: hidden; }
@@ -61,11 +62,11 @@ footer {
   margin-top: auto; }
   footer .footer {
     background: rgba(0, 0, 0, 0.918);
-    opacity: 85%;
+    opacity: 98%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    height: 150px;
+    height: 9rem;
     bottom: 0; }
     footer .footer .footer-bottom {
       background: black;
@@ -74,7 +75,8 @@ footer {
       footer .footer .footer-bottom p {
         text-transform: uppercase;
         opacity: .4;
-        font-weight: 200; }
+        font-weight: 200;
+        font-size: 18px; }
     footer .footer .footer-content {
       display: flex;
       align-items: center;
@@ -83,10 +85,11 @@ footer {
       text-align: center;
       height: 80%; }
       footer .footer .footer-content h3 {
-        text-transform: capitalize; }
+        text-transform: capitalize;
+        font-size: 22px; }
       footer .footer .footer-content p {
         max-width: 500px;
-        font-size: 14px; }
+        font-size: 18px; }
       footer .footer .footer-content ul {
         list-style: none;
         display: flex;
@@ -94,7 +97,8 @@ footer {
         justify-content: center; }
       footer .footer .footer-content li {
         margin-top: 1%;
-        margin-right: 25%; }
+        margin-right: 35%;
+        font-size: 22px; }
       footer .footer .footer-content li:hover {
         transform: scale(2);
         transition: ease 0.2s; }
@@ -107,18 +111,24 @@ footer {
         transition: color .4s ease; }
 
 .container {
-  margin-top: 1%;
-  margin-bottom: 3%;
-  border-radius: 5px;
-  background-color: #dfdfdf;
-  padding: 20px; }
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.918);
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  opacity: 95%;
+  padding: 20px;
+  color: white; }
   .container .row .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px; }
     .container .row .col-25 label {
       padding: 12px 12px 12px 0;
-      display: inline-block; }
+      display: inline-block;
+      font-size: 1.5em;
+      text-decoration: underline; }
   .container .row input[type=text], .container .row select, .container .row textarea {
     width: 100%;
     padding: 12px;
@@ -202,30 +212,39 @@ footer {
   display: flex;
   margin-top: 1%;
   margin-left: 5%; }
-
-.titulo-inicio {
-  position: relative;
-  color: white;
-  text-shadow: 4px 4px 4px black;
-  font-size: 100px;
-  text-decoration: underline; }
-
-.texto-inicio {
-  position: relative;
-  color: white;
-  text-shadow: 4px 4px 4px black;
-  margin-top: 1%;
-  margin-bottom: 2%; }
+  .portada-inicio .titulo h1 {
+    position: relative;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-size: 100px;
+    text-decoration: underline; }
+  .portada-inicio .titulo p {
+    position: relative;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: larger; }
+  .portada-inicio .titulo a {
+    height: 60px;
+    padding: 15px;
+    background-color: #07dd8f;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    border: 1px solid white; }
 
 .container-staff {
   margin-left: 32%;
   margin-top: 1%;
-  border: 0px solid #3182b8;
   max-width: 32%; }
   .container-staff .pic:hover .text {
     height: 60%;
     color: white;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    margin-top: 20px; }
   .container-staff .pic {
     position: relative;
     width: 100%;
@@ -238,7 +257,7 @@ footer {
       max-width: 100%;
       height: 0;
       text-align: center;
-      background: rgba(39, 199, 138, 0.8);
+      background: rgba(0, 0, 0, 0.9);
       transition: height 0.7s ease-out; }
     .container-staff .pic img {
       max-width: 100%;
@@ -250,7 +269,7 @@ footer {
   width: 100%;
   margin: 0 auto; }
   .container__entrenamientos .ficha {
-    background: linear-gradient(90deg, #005dff 0%, rgba(236, 250, 5, 0.8) 58%, rgba(3, 255, 3, 0.5) 100%);
+    background: linear-gradient(90deg, black 10%, #b9b9b9 50%, black 100%);
     color: black;
     border-radius: 15px;
     border: 1px solid white;
@@ -269,7 +288,7 @@ footer {
       margin-right: 3rem;
       border: 1px solid white; }
   .container__entrenamientos .ficha__2 {
-    background: linear-gradient(90deg, #005dff 0%, rgba(236, 250, 5, 0.8) 58%, rgba(3, 255, 3, 0.5) 100%);
+    background: linear-gradient(90deg, black 0%, white 50%, black 100%);
     color: white;
     border-radius: 15px;
     border: 1px solid white;
@@ -298,11 +317,13 @@ footer {
     transition: ease 0.2s; }
   .container__entrenamientos a {
     height: 60px;
-    padding: 20px;
-    background-color: #ffd724;
+    padding: 15px;
+    background-color: #07dd8f;
     color: white;
     display: inline-block;
     text-decoration: none;
     position: absolute;
     right: 20px;
-    bottom: -25px; }
+    bottom: -25px;
+    font-size: 20px;
+    border: 1px solid white; }

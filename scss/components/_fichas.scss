@@ -3,7 +3,7 @@
 	width: 100%;
 	margin: 0 auto;
     .ficha {
-        background: linear-gradient(90deg, rgba(0,93,255,1) 0%, rgba(236,250,5,0.8) 58%, rgba(3,255,3,0.5) 100%);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgb(185, 185, 185) 50%, rgba(0,0,0,1) 100%);
         color: black;
         border-radius: 15px;
         border: 1px solid white;
@@ -25,7 +25,7 @@
         }
     }
     .ficha__2 {
-        background: linear-gradient(90deg, rgba(0,93,255,1) 0%, rgba(236,250,5,0.8) 58%, rgba(3,255,3,0.5) 100%);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(255, 255, 255) 50%, rgba(0,0,0,1) 100%);
         color: white;
         border-radius: 15px;
         border: 1px solid white;
@@ -60,13 +60,15 @@
     }
     a{
         height: 60px;
-        padding: 20px;
-        background-color: rgb(255, 215, 36);
+        padding: 15px;
+        background-color: #07dd8f;
         color: white;
         display: inline-block;
         text-decoration: none;
         position: absolute;
         right: 20px;
         bottom: -25px;
+        font-size: 20px;
+        border: 1px solid white;
     }
 }

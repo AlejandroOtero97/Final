@@ -1,9 +1,13 @@
 .container {
-    margin-top: 1%;
-    margin-bottom: 3%;
-    border-radius: 5px;
-    background-color: #dfdfdf;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.918);
+    border: 2px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    opacity: 95%;
     padding: 20px;
+    color: white;
     .row {
         .col-25 {
             float: left;
@@ -12,6 +16,8 @@
             label {
                 padding: 12px 12px 12px 0;
                 display: inline-block;
+                font-size: 1.5em;
+                text-decoration: underline;
             }
         }
         input[type=text], select, textarea{

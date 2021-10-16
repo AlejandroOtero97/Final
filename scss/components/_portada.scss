@@ -9,20 +9,36 @@ $font-size: 100px;
     display: flex;
     margin-top: $margen-top/2;
     margin-left: $margen-left/3;
+    .titulo {
+        h1 {
+            position: $position;
+            color: $color;
+            text-shadow: $text-shadow;
+            font-size: ($font-size*10)-900;
+            text-decoration: underline;
+        }
+        p {
+            position: $position;
+            color: $color;
+            text-shadow: $text-shadow;
+            margin-top: $margen-top/2;
+            margin-bottom: 2%;
+            font-size: larger;
+        }
+        a {
+            height: 60px;
+            padding: 15px;
+            background-color: #07dd8f;
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            position: absolute;
+            font-size: 20px;
+            border: 1px solid white;
+        }
+    }
 }
 
-.titulo-inicio {
-    position: $position;
-    color: $color;
-	text-shadow: $text-shadow;
-	font-size: ($font-size*10)-900;
-    text-decoration: underline;
-}
 
-.texto-inicio {
-    position: $position;
-    color: $color;
-    text-shadow: $text-shadow;
-    margin-top: $margen-top/2;
-    margin-bottom: 2%;
-}
+
+
