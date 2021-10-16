@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
 </head>
 <body>
 
-	<header class="header">
+	<header>
 		<nav id="nav-bar">	
-			<div class="container">
+			<div class="container__nav">
 				<div class="logo"><a href="../index.html"><img src="../images/logo.jpg"></a></div>  
 					<ul class="nav-ul">
 						<li class="selected"><a href="./turnos.html">SacáTurno</a></li>
@@ -29,54 +30,34 @@
 		</nav>	
     </header>
 
-    <main>
-        <div class="formulario">
-            <div class="columna">
-                <div class="datos">
-                    <h1>Registrarse</h1></br>
-                    <label for="fname">Nombre:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-
-                    <label for="lname">Apellido:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
-
-                    <label for="email">Mail:</label>
-                    <input type="email" id="email" name="email"><br><br>
-
-                    <label for="birthday">Fecha De Nacimiento:</label>
-                    <input type="date" id="birthday" name="birthday"><br><br>
-
-                    <label for="birthday">Estado Civil </label>
-                    <select name="Talles" id="">
-                        <option value="Soltero">Soltero/a</option>
-                        <option value="Casado">Casado/a</option>
-                    </select><br><br>
-
-                    <label><input type="checkbox">¿Quiere recibir proximas noticias?</label><br><br>
-
-                    <textarea name="comentarios" rows="5" cols="20">Escribe aquí tus comentarios</textarea><br><br>
-
-                    <input type="button" value="Aceptar" class="button">
-                    <input type="button" value="Limpiar Informacion" class="button">
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="login row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">   
+                <div class="card">
+                    <h5 class="text-center mb-4">MoebiuzGym</h5>
+                    <form class="form-card">
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Nombre<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Escribe tu nombre" onblur="validate(1)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Apellido<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="Escribe tu apellido" onblur="validate(2)"> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Email de Trabajo<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Numero de Telefono<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Titulo de Trabajo<span class="text-danger"> *</span></label> <input type="text" id="job" name="job" placeholder="" onblur="validate(5)"> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-12 flex-column d-flex"> <label class="form-control-label px-3">Cual es tu interes con MoebiuzGym?<span class="text-danger"> *</span></label> <input type="text" id="ans" name="ans" placeholder="" onblur="validate(6)"> </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="form-group col-sm-6"> <button type="submit" class="boton btn-block btn-primary">Enviar!</button> </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-
-            <div class="columna">
-                <div class="datos">
-                    <h1>Iniciar Sesion</h1></br>
-                    <label for="fname">Cuenta:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-
-                    <label for="lname">Contraseña:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
-
-                    <input type="button" value="Iniciar Sesion" class="button">
-                    <input type="button" value="Olvide Mi Contraseña" class="button">
-                </div>
-            </div>
-
         </div>
-    </main>
+    </div>
 
     <footer>
             <div class="footer">
@@ -97,5 +78,6 @@
             </div>
     </footer>
 
+<script src="../bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
