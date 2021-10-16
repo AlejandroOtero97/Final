@@ -207,6 +207,14 @@ footer {
     .cont .empty-card img:hover {
       transform: skewX(-10deg);
       border: 2px solid #33af14; }
+    .cont .empty-card .comprar {
+      height: 60px;
+      padding: 15px;
+      background-color: #07dd8f;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      border: 1px solid white; }
 
 .portada-inicio {
   display: flex;
