@@ -5,24 +5,26 @@
     margin-top: 2%;
     padding-right: 5%;
     max-height: 41rem;
+    .empty-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.7);
+        max-height: 40%;
+        img {
+            transition: ease 0.2s;
+        }
+        img:hover {
+            transform: skewX(-10deg);
+            border: 2px solid rgb(51, 175, 20);
+            
+        }
+    }
 }
 
-.empty-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;
-    box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.7);
-    max-height: 40%;
-}
 
-.empty-card img {
-    transition: ease 0.2s;
-}
 
-.empty-card img:hover {
-    transform: skewX(-10deg);
-    border: 2px solid rgb(51, 175, 20);
-    
-}
+
+
