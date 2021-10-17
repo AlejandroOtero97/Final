@@ -22,49 +22,41 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-
-header .logo {
-  color: white;
-  font-size: 2rem;
-  text-decoration: line-through;
-  left: 3rem; }
-
-nav ul {
-  display: flex;
-  list-style: none; }
-
-nav ul li {
-  border-right: 1px solid gray;
-  padding: 1rem; }
-
-nav ul li:last-child {
-  border-right: none; }
-
-nav ul li a {
-  color: white;
-  font-size: 1.2rem;
-  padding: .8rem 1rem;
-  text-transform: uppercase;
-  text-decoration: none; }
-
-nav ul li a:hover {
-  background-color: white;
-  color: black;
-  transition: all .3s; }
-
-.drawer {
-  font-size: 2.5rem;
-  color: white;
-  float: left;
-  cursor: pointer;
-  display: none;
-  margin-left: 1rem;
-  border: solid 1.5px white;
-  padding: .2rem;
-  border-radius: .1rem; }
-
-#ckbox {
-  display: none; }
+  nav ul {
+    display: flex;
+    list-style: none; }
+  nav ul li {
+    border-right: 1px solid gray;
+    padding: 1rem; }
+  nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none; }
+  nav ul li:last-child {
+    border-right: none; }
+  nav ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: all .3s; }
+  nav .logo {
+    color: white;
+    font-size: 2rem;
+    text-decoration: line-through;
+    left: 3rem; }
+  nav #ckbox {
+    display: none; }
+  nav label {
+    font-size: 2.5rem;
+    color: white;
+    float: left;
+    cursor: pointer;
+    display: none;
+    margin-left: 1rem;
+    border: solid 1.5px white;
+    padding: .2rem;
+    border-radius: .1rem; }
 
 @media (max-width: 1039px) {
   nav {
