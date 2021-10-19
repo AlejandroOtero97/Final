@@ -33,7 +33,16 @@
     }
 }
 
+@media (max-width:1250px){
+    img {
+        transition: ease 0.2s;
+        max-height: 60%;
+    }
+}
 
-
-
-
+@media (max-width:950px){
+    img {
+        transition: ease 0.2s;
+        max-height: 40%;
+    }
+}

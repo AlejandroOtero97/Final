@@ -16,7 +16,7 @@ body {
 
 nav {
   background-color: black;
-  opacity: 90%;
+  opacity: 96%;
   height: 10vh;
   width: 100%;
   display: flex;
@@ -245,18 +245,26 @@ footer {
       font-size: 20px;
       border: 1px solid white; }
 
+@media (max-width: 1250px) {
+  img {
+    transition: ease 0.2s;
+    max-height: 60%; } }
+
+@media (max-width: 950px) {
+  img {
+    transition: ease 0.2s;
+    max-height: 40%; } }
+
 .portada-inicio {
   display: flex;
   margin-top: 1%;
   margin-left: 5%; }
   .portada-inicio .titulo h1 {
-    position: relative;
     color: white;
     text-shadow: 4px 4px 4px black;
     font-size: 100px;
     text-decoration: underline; }
   .portada-inicio .titulo p {
-    position: relative;
     color: white;
     text-shadow: 4px 4px 4px black;
     margin-top: 1%;
@@ -269,7 +277,6 @@ footer {
     color: white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
     font-size: 20px;
     border: 1px solid white; }
 
@@ -313,7 +320,6 @@ footer {
     padding: 20px;
     display: flex;
     align-items: center;
-    position: relative;
     margin-bottom: 2rem;
     margin-top: 2rem; }
     .container__entrenamientos .ficha p {
@@ -332,7 +338,6 @@ footer {
     padding: 20px;
     display: flex;
     align-items: center;
-    position: relative;
     margin-bottom: 2rem;
     margin-top: 1rem; }
     .container__entrenamientos .ficha__2 p {

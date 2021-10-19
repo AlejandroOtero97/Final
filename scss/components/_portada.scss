@@ -2,7 +2,6 @@ $color: rgb(255, 255, 255);
 $text-shadow: 4px 4px 4px rgb(0, 0, 0);
 $margen-top: 2%;
 $margen-left: 15%;
-$position: relative;
 $font-size: 100px;
 
 .portada-inicio {
@@ -11,14 +10,12 @@ $font-size: 100px;
     margin-left: $margen-left/3;
     .titulo {
         h1 {
-            position: $position;
             color: $color;
             text-shadow: $text-shadow;
             font-size: ($font-size*10)-900;
             text-decoration: underline;
         }
         p {
-            position: $position;
             color: $color;
             text-shadow: $text-shadow;
             margin-top: $margen-top/2;
@@ -32,7 +29,6 @@ $font-size: 100px;
             color: white;
             display: inline-block;
             text-decoration: none;
-            position: absolute;
             font-size: 20px;
             border: 1px solid white;
         }
