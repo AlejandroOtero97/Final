@@ -1,22 +1,19 @@
 .turnos1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    z-index: -1;
+    position: relative;
+    background-color: black;
+    opacity: 95%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: center;
+    display: flex;
     align-content: center;
     .turnos-contenido {
-        background: rgb(255, 255, 255);
-        margin-left: 20%;
-        margin-top: 3%;
-        width: 150%;
-        padding-bottom: 1%;
-        border-radius: 10px;
-        h1 {
-            text-align-last: center;
-            color: orangered;
-            text-decoration: underline;
-        }
+        display: inline-block;
         table {
             border-collapse: collapse;
-            margin: 0.5% 13%;
             border-radius: 10px 10px 0 0;
             overflow: hidden;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -33,7 +30,10 @@
                 border-bottom: 1px solid gray;
             }
             tbody tr:nth-of-type(even) {
-                background-color: #e2dcdc;
+                background-color: #a7a7a7;
+            }
+            tbody tr:nth-of-type(odd) {
+                background-color: #ffffff;
             }
             tbody tr:last-of-type {
                 border-bottom: 4px solid rgb(10, 63, 52);
@@ -41,3 +41,4 @@
         }
     }
 }
+
