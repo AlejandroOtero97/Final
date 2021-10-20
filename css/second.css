@@ -317,6 +317,7 @@ footer {
       max-height: 100%; }
 
 .container__entrenamientos {
+  z-index: -1;
   max-width: 80rem;
   width: 100%;
   margin: 0 auto; }
