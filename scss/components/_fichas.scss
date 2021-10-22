@@ -1,5 +1,4 @@
 .container__entrenamientos {
-    z-index: -1;
 	max-width: 80rem;
 	width: 100%;
 	margin: 0 auto;
@@ -63,8 +62,7 @@
         h2 {
             font-size: 2em;
             margin-bottom: 0.2em;
-            text-decoration: underline;
-            
+            text-decoration: underline;  
         }
     }
     a{
@@ -87,6 +85,10 @@
         z-index: -1;
         img {
             display: none;
+        }
+        a {
+            transform: scale(.65);
+            transition: 2.5s ease;
         }
         .ficha {
             background: black;

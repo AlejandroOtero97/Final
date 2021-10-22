@@ -318,7 +318,6 @@ footer {
       max-height: 100%; }
 
 .container__entrenamientos {
-  z-index: -1;
   max-width: 80rem;
   width: 100%;
   margin: 0 auto; }
@@ -391,6 +390,9 @@ footer {
     z-index: -1; }
     .container__entrenamientos img {
       display: none; }
+    .container__entrenamientos a {
+      transform: scale(0.65);
+      transition: 2.5s ease; }
     .container__entrenamientos .ficha {
       background: black;
       color: white;
