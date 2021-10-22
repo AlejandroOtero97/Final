@@ -1,48 +1,30 @@
-.cont {
-    display: grid;
-    grid-template-columns: 5% 45% 45% 5%;
-    padding-left: 5%;
-    margin-top: 2%;
-    padding-right: 5%;
-    max-height: 41rem;
-    .empty-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #fff;
-        box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.7);
-        max-height: 40%;
+.contenedor-fondo {
+    width: 100%;
+    background-color: black;
+}
+
+.contenedor {
+    max-width: 80vw;
+    margin-left: 10%;
+    .carousel-inner {
         img {
-            transition: ease 0.2s;
+            height: 663px;
         }
-        img:hover {
-            transform: skewX(-10deg);
-            border: 2px solid rgb(51, 175, 20);
-            
-        }
-        .comprar {
-            height: 60px;
-            padding: 15px;
-            background-color: #07dd8f;
-            color: white;
-            text-decoration: none;
-            font-size: 20px;
-            border: 1px solid white;
+        .carousel-caption {
+            color: rgb(255, 255, 255);
+            h5 {
+                font-size: 2em;
+                text-decoration: underline;
+            }
+            p {
+                font-size: 1.4em;
+            }
         }
     }
 }
 
-@media (max-width:1250px){
-    img {
-        transition: ease 0.2s;
-        max-height: 60%;
-    }
-}
-
-@media (max-width:950px){
-    img {
-        transition: ease 0.2s;
-        max-height: 40%;
+@media (max-width: 1060px) {
+    .contenedor-fondo {
+        z-index: -1;
     }
 }
