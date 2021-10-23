@@ -122,10 +122,11 @@ footer {
       height: 80%; }
       footer .footer .footer-content h3 {
         text-transform: capitalize;
-        font-size: 22px; }
+        font-size: 25px;
+        text-decoration: line-through; }
       footer .footer .footer-content p {
         max-width: 500px;
-        font-size: 18px; }
+        font-size: 15px; }
       footer .footer .footer-content ul {
         list-style: none;
         display: flex;
@@ -272,42 +273,52 @@ footer {
       padding: 15px;
       text-align: center; }
       .banner-container .banner .logo img {
-        width: 80%; }
+        width: 95%; }
     .banner-container .banner .content {
       flex: 1 1 250px;
       text-align: center;
       padding: 10px;
       text-transform: uppercase; }
-      .banner-container .banner .content .boton .btn {
-        display: block;
-        height: 77px;
-        width: 300px;
-        border-radius: 4px;
-        text-transform: uppercase;
-        background-color: transparent;
-        color: #fff;
-        font-size: 18px;
-        overflow: hidden;
-        transition: all 500ms ease;
-        border: 2px solid #ffd900;
-        margin-bottom: 40px;
-        z-index: 0;
-        font-weight: 700;
-        cursor: pointer; }
-        .banner-container .banner .content .boton .btn ::before {
-          content: "";
-          position: absolute;
-          left: 0;
-          right: 0;
-          top: 0;
-          margin: auto;
-          background-color: #fffb00;
+      .banner-container .banner .content .boton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px; }
+        .banner-container .banner .content .boton .btn {
+          display: block;
+          height: 77px;
+          width: 300px;
+          border-radius: 4px;
+          text-transform: uppercase;
+          background-color: transparent;
+          color: #fff;
+          font-size: 18px;
+          overflow: hidden;
           transition: all 500ms ease;
-          z-index: -1; }
-        .banner-container .banner .content .boton .btn--3:hover {
-          animation: shadow-pulse 1000ms 1;
-          background-color: #ffee00;
-          color: #434343; }
+          border: 2px solid #ffd900;
+          background: black;
+          margin-bottom: 40px;
+          z-index: 0;
+          font-weight: 700;
+          cursor: pointer; }
+          .banner-container .banner .content .boton .btn a {
+            text-decoration: none;
+            color: inherit;
+            padding: 25px 80px; }
+          .banner-container .banner .content .boton .btn ::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            background-color: #fffb00;
+            transition: all 500ms ease;
+            z-index: -1; }
+          .banner-container .banner .content .boton .btn--3:hover {
+            animation: shadow-pulse 1000ms 1;
+            background-color: #ffee00;
+            color: #434343; }
       .banner-container .banner .content span {
         color: white;
         font-size: 25px; }
@@ -325,7 +336,7 @@ footer {
   100% {
     box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0); } }
 
-@media (max-width: 768px) {
+@media (max-width: 1035px) {
   .banner-container .banner .muscle {
     display: none; } }
 

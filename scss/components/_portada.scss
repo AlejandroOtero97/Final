@@ -27,7 +27,7 @@
             padding: 15px;
             text-align: center;
             img {
-                width: 80%;
+                width: 95%;
             }
         }
         .content {
@@ -36,6 +36,10 @@
             padding: 10px;
             text-transform: uppercase;
             .boton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 25px;
                 .btn {
                     display: block;
                     height: 77px;
@@ -48,10 +52,16 @@
                     overflow: hidden;
                     transition: all 500ms ease;
                     border: 2px solid #ffd900;
+                    background: black;
                     margin-bottom: 40px;
                     z-index: 0;
                     font-weight: 700;
                     cursor: pointer;
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                        padding: 25px 80px;
+                    }
                     ::before {
                         content: "";
                         position: absolute;
@@ -96,7 +106,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1035px) {
     .banner-container .banner .muscle {
         display: none;
     }
