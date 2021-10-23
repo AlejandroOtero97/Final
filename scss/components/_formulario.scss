@@ -1,5 +1,4 @@
 .container {
-    z-index: -1;
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 1em;
@@ -30,12 +29,12 @@
             resize: vertical;
         }
         input[type=submit] {
-            background-color: #07dd8f;
-            color: white;
+            background-color: #000000;
+            color: yellow;
             padding: 12px 20px;
             margin-top: 1rem;
             margin-left: 25%;
-            border: none;
+            border: 3px solid yellow;
             border-radius: 4px;
             cursor: pointer;
             max-width: 50%;
@@ -43,9 +42,12 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1035px) {
+    .container {
+        z-index: -1;
+    }
     .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
+        width: 100%;
+        margin-top: 0;
     }
 } 
