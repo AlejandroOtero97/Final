@@ -22,7 +22,7 @@ body {
 nav {
   background-color: black;
   opacity: 96%;
-  height: 10vh;
+  height: 5rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -227,20 +227,21 @@ footer {
 
 .contenedor-fondo {
   width: 100%;
-  background-color: black; }
-
-.contenedor {
-  max-width: 80vw;
-  margin-left: 10%; }
-  .contenedor .carousel-inner img {
-    height: 663px; }
-  .contenedor .carousel-inner .carousel-caption {
-    color: white; }
-    .contenedor .carousel-inner .carousel-caption h5 {
-      font-size: 2em;
-      text-decoration: underline; }
-    .contenedor .carousel-inner .carousel-caption p {
-      font-size: 1.4em; }
+  background-color: black;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+  .contenedor-fondo .contenedor {
+    max-width: 80vw;
+    margin-left: 10%; }
+    .contenedor-fondo .contenedor .carousel-inner img {
+      height: 70vh; }
+    .contenedor-fondo .contenedor .carousel-inner .carousel-caption {
+      color: white; }
+      .contenedor-fondo .contenedor .carousel-inner .carousel-caption h5 {
+        font-size: 2em;
+        text-decoration: underline; }
+      .contenedor-fondo .contenedor .carousel-inner .carousel-caption p {
+        font-size: 1.4em; }
 
 @media (max-width: 1060px) {
   .contenedor-fondo {

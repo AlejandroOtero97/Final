@@ -1,23 +1,24 @@
 .contenedor-fondo {
     width: 100%;
     background-color: black;
-}
-
-.contenedor {
-    max-width: 80vw;
-    margin-left: 10%;
-    .carousel-inner {
-        img {
-            height: 663px;
-        }
-        .carousel-caption {
-            color: rgb(255, 255, 255);
-            h5 {
-                font-size: 2em;
-                text-decoration: underline;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    .contenedor {
+        max-width: 80vw;
+        margin-left: 10%;
+        .carousel-inner {
+            img {
+                height: 70vh;
             }
-            p {
-                font-size: 1.4em;
+            .carousel-caption {
+                color: rgb(255, 255, 255);
+                h5 {
+                    font-size: 2em;
+                    text-decoration: underline;
+                }
+                p {
+                    font-size: 1.4em;
+                }
             }
         }
     }
