@@ -1,9 +1,6 @@
 .turnos1 {
-    box-shadow: 0 5px 10px 5px black;
-    z-index: -1;
     position: relative;
     background-color: black;
-    opacity: 95%;
     padding-top: 3%;
     padding-bottom: 3%;
     margin-top: 3%;
@@ -13,10 +10,10 @@
     align-content: center;
     .turnos-contenido {
         display: inline-block;
+        overflow: auto;
         table {
             border-collapse: collapse;
             border-radius: 10px 10px 0 0;
-            overflow: hidden;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
             thead tr {
                 background-color: rgb(10, 63, 52);
@@ -43,3 +40,8 @@
     }
 }
 
+@media (max-width: 600px) {
+    .turnos1 {
+        z-index: -1;
+    }
+}

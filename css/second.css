@@ -192,11 +192,8 @@ footer {
     margin-top: 0; } }
 
 .turnos1 {
-  box-shadow: 0 5px 10px 5px black;
-  z-index: -1;
   position: relative;
   background-color: black;
-  opacity: 95%;
   padding-top: 3%;
   padding-bottom: 3%;
   margin-top: 3%;
@@ -205,11 +202,11 @@ footer {
   display: flex;
   align-content: center; }
   .turnos1 .turnos-contenido {
-    display: inline-block; }
+    display: inline-block;
+    overflow: auto; }
     .turnos1 .turnos-contenido table {
       border-collapse: collapse;
       border-radius: 10px 10px 0 0;
-      overflow: hidden;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
       .turnos1 .turnos-contenido table thead tr {
         background-color: #0a3f34;
@@ -226,6 +223,10 @@ footer {
         background-color: #ffffff; }
       .turnos1 .turnos-contenido table tbody tr:last-of-type {
         border-bottom: 4px solid #0a3f34; }
+
+@media (max-width: 600px) {
+  .turnos1 {
+    z-index: -1; } }
 
 .contenedor-fondo {
   width: 100%;
