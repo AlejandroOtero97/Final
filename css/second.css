@@ -340,20 +340,21 @@ footer {
   .banner-container .banner .muscle {
     display: none; } }
 
-.container-staff {
-  margin-left: 32%;
-  margin-top: 1%;
-  max-width: 32%; }
-  .container-staff .pic:hover .text {
+.contenedor-staff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%; }
+  .contenedor-staff .container-staff .pic:hover .text {
     height: 60%;
     color: white;
     font-size: 1.5em;
     margin-top: 20px; }
-  .container-staff .pic {
+  .contenedor-staff .container-staff .pic {
     position: relative;
     width: 100%;
     overflow: hidden; }
-    .container-staff .pic .text {
+    .contenedor-staff .container-staff .pic .text {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -363,7 +364,7 @@ footer {
       text-align: center;
       background: rgba(0, 0, 0, 0.9);
       transition: height 0.7s ease-out; }
-    .container-staff .pic img {
+    .contenedor-staff .container-staff .pic img {
       max-width: 100%;
       max-height: 100%; }
 
