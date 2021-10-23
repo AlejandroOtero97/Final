@@ -9,7 +9,9 @@
         height: 30rem;
     }
     .portada-inicio {
-        background-color: #181a1b;
+        background-color: #000000;
+        border: 2px solid yellow;
+        border-radius: 15px;
         width: 50rem;
         height: 24rem;
         padding: 40px;
@@ -30,27 +32,29 @@
                 text-align: center;
             }
             .btn {
-                cursor: pointer;
+                margin-left: 28%;
+                margin-top: 5%;
                 position: relative;
                 display: block;
                 height: 77px;
                 width: 300px;
                 border-radius: 4px;
                 text-transform: uppercase;
-                background-color: #181a1b;
-                color: rgb(255, 255, 255);
-                font-size: 22px;
+                background-color: transparent;
+                color: #fff;
+                font-size: 18px;
                 overflow: hidden;
                 transition: all 500ms ease;
-                border: 2px solid yellow;
+                border: 2px solid #fbff00;
                 margin-bottom: 40px;
                 z-index: 0;
-                font-weight: 900;
+                font-weight: 700;
+                cursor: pointer;
                 a {
                     text-decoration: none;
                     color: inherit;
                 }
-                &::before {
+                ::before {
                     content: "";
                     position: absolute;
                     left: 0;
@@ -61,10 +65,10 @@
                     transition: all 500ms ease;
                     z-index: -1;
                 }
-                &--1:hover {
-                    animation: shadow-pulse 1000ms ;
-                    background-color: rgb(255, 251, 10);
-                    color: black;
+                &--3:hover {
+                    animation: shadow-pulse 1000ms 1;
+                    background-color: yellow;
+                    color: #434343;
                 }
             }
         }
@@ -72,10 +76,10 @@
 }
 
 @keyframes shadow-pulse {
-    0%{
-        box-shadow: 0 0 0 0 rgba(255, 251, 10, 0.8);
+    0% {
+      box-shadow: 0 0 0 0 rgb(251, 255, 0);
     }
-    100%{
-        box-shadow: 0 0 8 16 rgba(255, 251, 10, 0.8);
+    100% {
+      box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
     }
-}
+  }
