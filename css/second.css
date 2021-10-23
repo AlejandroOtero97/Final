@@ -245,89 +245,89 @@ footer {
   .contenedor-fondo {
     z-index: -1; } }
 
-.portada {
-  width: 100%;
-  height: 30rem;
+.banner-container {
   display: flex;
+  align-items: center;
   justify-content: center; }
-  .portada .btn {
-    margin-left: 5%;
-    position: relative;
-    display: block;
-    height: 77px;
-    width: 300px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    background-color: transparent;
-    color: #fff;
-    font-size: 18px;
-    overflow: hidden;
-    transition: all 500ms ease;
-    border: 2px solid #fbff00;
-    z-index: 0;
-    font-weight: 700;
-    cursor: pointer; }
-    .portada .btn a {
-      text-decoration: none;
-      color: inherit; }
-    .portada .btn ::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      margin: auto;
-      background-color: yellow;
-      transition: all 500ms ease;
-      z-index: -1; }
-    .portada .btn--3:hover {
-      animation: shadow-pulse 1000ms 1;
-      background-color: yellow;
-      color: #434343; }
-  .portada .portada-inicio {
-    background-color: #0e0e0e;
-    border: 2px solid yellow;
-    width: 80%;
-    height: 30rem;
-    display: flex; }
-    .portada .portada-inicio .info {
-      width: 50%;
-      height: 25rem;
-      border-left: 2px solid white; }
-      .portada .portada-inicio .info h2 {
-        text-align: center;
+  .banner-container .banner {
+    background: #ffd600;
+    background: linear-gradient(309deg, #ffd600 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #ffd600 100%);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px black;
+    overflow: hidden; }
+    .banner-container .banner .muscle {
+      position: relative;
+      bottom: -33px;
+      padding: 10px;
+      flex: 1 1 250px; }
+      .banner-container .banner .muscle img {
+        width: 85%; }
+    .banner-container .banner .logo {
+      flex: 1 1 250px;
+      padding: 15px;
+      text-align: center; }
+      .banner-container .banner .logo img {
+        width: 80%; }
+    .banner-container .banner .content {
+      flex: 1 1 250px;
+      text-align: center;
+      padding: 10px;
+      text-transform: uppercase; }
+      .banner-container .banner .content .boton .btn {
+        display: block;
+        height: 77px;
+        width: 300px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #fff;
+        font-size: 18px;
+        overflow: hidden;
+        transition: all 500ms ease;
+        border: 2px solid #ffd900;
+        margin-bottom: 40px;
+        z-index: 0;
+        font-weight: 700;
+        cursor: pointer; }
+        .banner-container .banner .content .boton .btn ::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          margin: auto;
+          background-color: #fffb00;
+          transition: all 500ms ease;
+          z-index: -1; }
+        .banner-container .banner .content .boton .btn--3:hover {
+          animation: shadow-pulse 1000ms 1;
+          background-color: #ffee00;
+          color: #434343; }
+      .banner-container .banner .content span {
         color: white;
-        text-shadow: 2px 2px 2px #acacac;
-        font-size: 50px; }
-      .portada .portada-inicio .info p {
-        color: white;
-        text-shadow: 4px 4px 4px black;
-        margin-top: 3%;
-        margin-bottom: 2%;
-        text-align: center;
-        font-size: 20px; }
-    .portada .portada-inicio .titulo {
-      width: 50%;
-      margin-left: 5%;
-      height: 25rem; }
-      .portada .portada-inicio .titulo h1 {
-        color: #ffed49;
-        text-shadow: 3px 3px 3px white;
-        font-size: 100px;
-        text-decoration: line-through; }
-      .portada .portada-inicio .titulo p {
-        color: white;
-        text-shadow: 4px 4px 4px black;
-        margin-top: 1%;
-        margin-bottom: 2%;
-        text-align: center;
         font-size: 25px; }
+      .banner-container .banner .content h3 {
+        color: white;
+        font-size: 40px; }
+      .banner-container .banner .content p {
+        color: white;
+        font-size: 20px;
+        padding: 10px 0; }
 
 @keyframes shadow-pulse {
   0% {
-    box-shadow: 0 0 0 0 #fbff00; }
+    box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.973); }
   100% {
     box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0); } }
+
+@media (max-width: 768px) {
+  .banner-container .banner .muscle {
+    display: none; } }
 
 .container-staff {
   margin-left: 32%;
