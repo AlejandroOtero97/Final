@@ -2,11 +2,52 @@
 	max-width: 80rem;
 	width: 100%;
 	margin: 0 auto;
+    .btn {
+        box-shadow: 0 5px 10px 5px black;
+        position: absolute;
+        right: 10px;
+        bottom: -70px;
+        display: block;
+        height: 60px;
+        width: 280px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        overflow: hidden;
+        transition: all 500ms ease;
+        border: 2px solid #ffffff;
+        background: rgb(26, 26, 26);
+        margin-bottom: 40px;
+        font-weight: 900;
+        cursor: pointer;
+        ::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            background-color: #ffffff;
+            transition: all 500ms ease;
+            z-index: -1;
+        }
+        &--3:hover {
+            animation: shadow-pulses 1000ms 1;
+            background-color: #ffffff;
+            color: #434343;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
     img:hover {
         transform: scale(1.3);
         transition: ease 0.2s;
     }
     .ficha {
+        box-shadow: 0 5px 10px 5px black;
         background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgb(185, 185, 185) 50%, rgba(0,0,0,1) 100%);
         color: black;
         border-radius: 15px;
@@ -31,6 +72,7 @@
 
     }
     .ficha__2 {
+        box-shadow: 0 5px 10px 5px black;
         background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(255, 255, 255) 50%, rgba(0,0,0,1) 100%);
         color: white;
         border-radius: 15px;
@@ -64,19 +106,6 @@
             margin-bottom: 0.2em;
             text-decoration: underline;  
         }
-    }
-    a{
-        height: 60px;
-        padding: 15px;
-        background-color: #07dd8f;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        position: absolute;
-        right: 20px;
-        bottom: -25px;
-        font-size: 20px;
-        border: 1px solid white;
     }
 }
 

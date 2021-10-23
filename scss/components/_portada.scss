@@ -97,15 +97,6 @@
     }
 }
 
-@keyframes shadow-pulse {
-    0% {
-      box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.973);
-    }
-    100% {
-      box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
-    }
-}
-
 @media (max-width: 1035px) {
     .banner-container .banner .muscle {
         display: none;
