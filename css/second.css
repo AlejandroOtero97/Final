@@ -258,7 +258,7 @@ footer {
   .banner-container .banner {
     background: #ffd600;
     background: linear-gradient(309deg, #ffd600 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #ffd600 100%);
-    border-radius: 5px;
+    border-radius: 300px;
     margin: 10px;
     display: flex;
     align-items: center;
