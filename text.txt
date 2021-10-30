@@ -1,23 +1,13 @@
 
 lo que es turnos esta bien la tabla, pero yo le sumaria una imagen cosa de que no quede tan sola .
 
-La parte de entrenamiento me gusto pero fijate del escalado de las imagenes. que no salga de su contenedor. para que no pasen cosas  como en la parte que 
-trabajas sobre bodybuilding, que si pasas el cursos por la imagen me tapa el icono de informacion
-
 la parte de staff donde vos apareces fijate de sacarle los bordes blancos a la imagen para que no tenga ese corte brusco con el background. 
 despues mas que una card (que esta buena) podrias poner un poco sobre tu laburo creo que lo remarque en entregas anteriores. 
 sino es asi estaria bueno que se cmabiara y pusieras fotos tuyas laburando. 
 
 lo que es showroom esta bien el carrousel aunque podrias sumar unas cards abajo con la reseña de algunos articulos y el beneficio que trae tenerlas.
 
-lo que es el login mas que login seria un formulario de contacto. yo le pondria a la seccion encontranos, contactanos. 
 en cuanto al formulario al estar en bootstrap, podrias ponerlo todo dentro de un div container. 
-
-
-////
 
 tema responsive si hay que chequear lo que vos me venias diciendo sobre la imagen en staff y que la tabla no se acomoda al mismo. 
 en el index con el boton "empieza ya " ocurre lo mismo. 
-
-
-en cuanto a codigo y css esta muy bien te felicito. lo que te escribi son algunas reseñas que quiza sumaria

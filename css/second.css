@@ -191,42 +191,46 @@ footer {
     width: 100%;
     margin-top: 0; } }
 
-.turnos1 {
-  position: relative;
-  background-color: black;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  justify-content: center;
-  display: flex;
-  align-content: center; }
-  .turnos1 .turnos-contenido {
-    display: inline-block;
-    overflow: auto; }
-    .turnos1 .turnos-contenido table {
-      border-collapse: collapse;
-      border-radius: 10px 10px 0 0;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
-      .turnos1 .turnos-contenido table thead tr {
-        background-color: #0a3f34;
-        color: white;
-        text-align: center;
-        font-weight: bold; }
-      .turnos1 .turnos-contenido table th, .turnos1 .turnos-contenido table td {
-        padding: 20px 40px; }
-      .turnos1 .turnos-contenido table tbody tr {
-        border-bottom: 1px solid gray; }
-      .turnos1 .turnos-contenido table tbody tr:nth-of-type(even) {
-        background-color: #a7a7a7; }
-      .turnos1 .turnos-contenido table tbody tr:nth-of-type(odd) {
-        background-color: #ffffff; }
-      .turnos1 .turnos-contenido table tbody tr:last-of-type {
-        border-bottom: 4px solid #0a3f34; }
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5%;
+  font-size: 20px; }
+  .table td, .table th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center; }
+  .table th {
+    background-color: darkblue;
+    color: #ffffff; }
+  .table tbody tr:nth-child(even) {
+    background-color: #ffffff; }
+  .table tbody tr:nth-child(odd) {
+    background-color: #acacac; }
 
-@media (max-width: 600px) {
-  .turnos1 {
-    z-index: -1; } }
+@media (max-width: 800px) {
+  .table {
+    z-index: -1; }
+  .table thead {
+    display: none; }
+  .table, .table tbody, .table tr, .table td {
+    display: block;
+    width: 100%; }
+  .table tr {
+    margin-bottom: 15px; }
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative; }
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; } }
 
 .contenedor-fondo {
   width: 100%;
@@ -258,7 +262,7 @@ footer {
   .banner-container .banner {
     background: #ffd600;
     background: linear-gradient(309deg, #ffd600 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #ffd600 100%);
-    border-radius: 300px;
+    border-radius: 100px;
     margin: 10px;
     display: flex;
     align-items: center;
@@ -408,7 +412,7 @@ footer {
       color: inherit;
       text-decoration: none; }
   .container__entrenamientos img:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition: ease 0.2s; }
   .container__entrenamientos .ficha {
     box-shadow: 0 5px 10px 5px black;
@@ -421,7 +425,8 @@ footer {
     align-items: center;
     position: relative;
     margin-bottom: 2rem;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    height: 18rem; }
     .container__entrenamientos .ficha p {
       line-height: 1em;
       font-size: 2em; }
@@ -441,7 +446,8 @@ footer {
     align-items: center;
     position: relative;
     margin-bottom: 2rem;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    height: 18rem; }
     .container__entrenamientos .ficha__2 p {
       line-height: 28px;
       font-size: 1.7rem;
