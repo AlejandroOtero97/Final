@@ -145,11 +145,14 @@
         }
         .ficha {
             height: 22rem;
+            .text__ficha {
+                overflow-x:hidden;
+            }
         }
         .ficha__2 {
             height: 22rem;
             .text__ficha {
-                overflow-x:hidden !important;
+                overflow-x:hidden;
             }
         }
     }

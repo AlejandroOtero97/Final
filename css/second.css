@@ -497,10 +497,12 @@ footer {
     bottom: -80px; }
   .container__entrenamientos .ficha {
     height: 22rem; }
+    .container__entrenamientos .ficha .text__ficha {
+      overflow-x: hidden; }
   .container__entrenamientos .ficha__2 {
     height: 22rem; }
     .container__entrenamientos .ficha__2 .text__ficha {
-      overflow-x: hidden !important; } }
+      overflow-x: hidden; } }
 
 @keyframes shadow-pulses {
   0% {
