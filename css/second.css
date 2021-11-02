@@ -72,12 +72,12 @@ nav {
   nav h1 {
     margin-left: 1rem; }
   ul {
-    position: fixed;
-    width: 50%;
-    height: 100vh;
+    position: absolute;
+    width: 60%;
+    height: 54vh;
     background-color: black;
     color: white;
-    top: 10vh;
+    top: 8.5vh;
     left: -100%;
     text-align: left;
     transition: all .5s;
@@ -89,7 +89,9 @@ nav {
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
-    border-bottom: solid .1rem gray; }
+    border-bottom: solid 1px gray; }
+  nav ul li a {
+    font-size: 1rem; }
   #ckbox:checked ~ .menu-box {
     left: 0; } }
 
@@ -482,6 +484,13 @@ footer {
       background: black;
       color: white;
       transition: 2s ease; } }
+
+@media (max-width: 500px) {
+  .container__entrenamientos .btn {
+    transform: scale(0.6);
+    transition: 2.5s ease;
+    right: -25px;
+    bottom: -80px; } }
 
 @keyframes shadow-pulses {
   0% {

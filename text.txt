@@ -6,5 +6,3 @@ despues mas que una card (que esta buena) podrias poner un poco sobre tu laburo 
 sino es asi estaria bueno que se cmabiara y pusieras fotos tuyas laburando. 
 
 lo que es showroom esta bien el carrousel aunque podrias sumar unas cards abajo con la reseña de algunos articulos y el beneficio que trae tenerlas.
-
-tema responsive si hay que chequear lo que vos me venias diciendo sobre la imagen en staff y en el index con el boton "empieza ya " ocurre lo mismo. 

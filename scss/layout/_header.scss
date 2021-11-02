@@ -63,12 +63,12 @@ nav {
         margin-left: 1rem;
     }
     ul {
-        position: fixed;
-        width: 50%;
-        height: 100vh;
+        position: absolute;
+        width: 60%;
+        height: 54vh;
         background-color: rgb(0, 0, 0);
         color: white;
-        top: 10vh;
+        top: 8.5vh;
         left: -100%;
         text-align: left;
         transition: all .5s;
@@ -81,7 +81,10 @@ nav {
         display: flex;
         flex-direction: column;
         padding-left: 2rem;
-        border-bottom: solid .1rem gray;
+        border-bottom: solid 1px gray;
+    }
+    nav ul li a{
+        font-size: 1rem;
     }
     #ckbox:checked  ~ .menu-box{
         left: 0;

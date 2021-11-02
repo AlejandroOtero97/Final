@@ -133,3 +133,14 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    .container__entrenamientos {
+        .btn {
+            transform: scale(0.6);
+            transition: 2.5s ease;
+            right: -25px;
+            bottom: -80px;
+        }
+    }
+}
