@@ -64,14 +64,14 @@ nav {
 
 @media (max-width: 1039px) {
   nav {
-    z-index: 3;
+    position: relative;
+    z-index: 5;
     justify-content: flex-start; }
   .drawer {
     display: block; }
   nav h1 {
     margin-left: 1rem; }
   ul {
-    z-index: 100;
     position: fixed;
     width: 50%;
     height: 100vh;
@@ -85,7 +85,6 @@ nav {
     flex-direction: column;
     align-content: stretch; }
   nav ul li {
-    z-index: 3;
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
@@ -186,7 +185,7 @@ footer {
 
 @media screen and (max-width: 1035px) {
   .container {
-    z-index: -1; }
+    position: relative; }
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0; } }
@@ -254,10 +253,6 @@ footer {
         text-decoration: underline; }
       .contenedor-fondo .contenedor .carousel-inner .carousel-caption p {
         font-size: 1.4em; }
-
-@media (max-width: 1060px) {
-  .contenedor-fondo {
-    z-index: -1; } }
 
 .banner-container {
   display: flex;
@@ -473,7 +468,7 @@ footer {
 
 @media (max-width: 1100px) {
   .container__entrenamientos {
-    z-index: -1; }
+    z-index: 1; }
     .container__entrenamientos img {
       display: none; }
     .container__entrenamientos a {
