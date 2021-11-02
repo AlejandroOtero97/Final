@@ -54,6 +54,7 @@
         border: 1px solid white;
         padding: 20px;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         position: relative;
         margin-bottom: 2rem; 
@@ -62,7 +63,6 @@
         p {
             line-height: 1em;
             font-size: 2em;
-
         }
         img {
             width: 25rem;
@@ -80,6 +80,7 @@
         border: 1px solid white;
         padding: 20px;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         position: relative;
         margin-bottom: 2rem;
@@ -142,8 +143,14 @@
             right: -25px;
             bottom: -80px;
         }
-        .ficha p{
-            font-size: 1em;
+        .ficha {
+            height: 22rem;
+        }
+        .ficha__2 {
+            height: 22rem;
+            .text__ficha {
+                overflow-x:hidden !important;
+            }
         }
     }
 }
