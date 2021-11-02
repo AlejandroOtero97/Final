@@ -74,7 +74,7 @@ nav {
   ul {
     position: absolute;
     width: 60%;
-    height: 54vh;
+    height: 75vh;
     background-color: black;
     color: white;
     top: 8.5vh;
@@ -83,7 +83,9 @@ nav {
     transition: all .5s;
     display: flex;
     flex-direction: column;
-    align-content: stretch; }
+    align-content: stretch;
+    border-right: 1px solid gray;
+    border-bottom: solid 1px gray; }
   nav ul li {
     padding: 1rem 0;
     display: flex;
@@ -490,7 +492,9 @@ footer {
     transform: scale(0.6);
     transition: 2.5s ease;
     right: -25px;
-    bottom: -80px; } }
+    bottom: -80px; }
+  .container__entrenamientos .ficha p {
+    font-size: 1em; } }
 
 @keyframes shadow-pulses {
   0% {
