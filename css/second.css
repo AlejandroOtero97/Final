@@ -199,21 +199,27 @@ footer {
   border-collapse: collapse;
   margin-top: 2%;
   font-size: 20px;
-  box-shadow: 0 5px 10px black; }
+  box-shadow: 0 5px 10px black;
+  background: #005b7e;
+  background: linear-gradient(309deg, #005b7e 0%, black 35%, black 65%, #005b7e 100%); }
   .table td, .table th {
     padding: 12px 15px;
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center; }
   .table th {
-    background-color: #ffd900;
-    color: #ffffff; }
+    color: #979797;
+    text-decoration: wavy;
+    font-size: 25px; }
   .table tbody tr:nth-child(even) {
-    background-color: #ffffff; }
+    color: #02ff02; }
+    .table tbody tr:nth-child(even) :hover {
+      background-color: #02ff028c; }
   .table tbody tr:nth-child(odd) {
-    background-color: #acacac; }
+    color: red; }
+    .table tbody tr:nth-child(odd) :hover {
+      background-color: rgba(255, 0, 0, 0.418); }
   .table th:hover, .table td:hover, .table tr:hover {
-    background-color: #ff5e00;
-    transition: 0.5s ease; }
+    transition: 0.2s ease; }
 
 @media (max-width: 800px) {
   .table {

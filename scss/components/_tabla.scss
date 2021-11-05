@@ -4,24 +4,33 @@
     margin-top: 2%;
     font-size: 20px;
     box-shadow: 0 5px 10px black;
+	background: rgb(0,91,126);
+	background: linear-gradient(309deg, rgba(0,91,126,1) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 65%, rgba(0,91,126,1) 100%);
+
     td,th{
         padding: 12px 15px;
-        border: 2px solid rgb(0, 0, 0);
+        border: 2px solid rgb(255, 255, 255);
         text-align: center;
     }
     th{
-        background-color: #ffd900;
-        color:#ffffff;
+        color:#979797;
+		text-decoration: wavy;
+		font-size: 25px;
     }
     tbody tr:nth-child(even){
-        background-color: #ffffff;
+		color: #02ff02;
+		:hover {
+			background-color: #02ff028c;
+		}
     }
     tbody tr:nth-child(odd){
-        background-color: rgb(172, 172, 172);
+		color: red;
+		:hover {
+			background-color: rgba(255, 0, 0, 0.418);
+		}
     }
     th:hover,td:hover,tr:hover {
-        background-color: rgb(255, 94, 0);
-        transition: 0.5s ease;
+        transition: 0.2s ease;
     }
 }
 
