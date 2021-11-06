@@ -24,3 +24,15 @@
         }
     }
 }
+
+@media(max-width: 800px) {
+    .contenedor-fondo {
+        .contenedor {
+            .carousel-inner {
+                img {
+                    height: 50vh;
+                }
+            }
+        }
+    }
+}

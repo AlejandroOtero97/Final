@@ -349,6 +349,10 @@ footer {
       .contenedor-fondo .contenedor .carousel-inner .carousel-caption p {
         font-size: 1.4em; }
 
+@media (max-width: 800px) {
+  .contenedor-fondo .contenedor .carousel-inner img {
+    height: 50vh; } }
+
 .banner-container {
   display: flex;
   align-items: center;
