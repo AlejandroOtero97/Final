@@ -161,7 +161,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.918);
   border: 2px solid black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  opacity: 95%;
   padding: 20px;
   color: white; }
   .container .row .col-25 {
@@ -341,7 +340,7 @@ footer {
     max-width: 80vw;
     margin-left: 10%; }
     .contenedor-fondo .contenedor .carousel-inner img {
-      height: 70vh; }
+      height: 80vh; }
     .contenedor-fondo .contenedor .carousel-inner .carousel-caption {
       color: white; }
       .contenedor-fondo .contenedor .carousel-inner .carousel-caption h5 {
