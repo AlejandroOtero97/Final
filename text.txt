@@ -1,6 +1,3 @@
-
-lo que es turnos esta bien la tabla, pero yo le sumaria una imagen cosa de que no quede tan sola .
-
 la parte de staff donde vos apareces fijate de sacarle los bordes blancos a la imagen para que no tenga ese corte brusco con el background. 
 despues mas que una card (que esta buena) podrias poner un poco sobre tu laburo creo que lo remarque en entregas anteriores. 
 sino es asi estaria bueno que se cmabiara y pusieras fotos tuyas laburando. 
