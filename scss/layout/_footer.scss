@@ -5,16 +5,17 @@ footer {
         opacity: 98%;
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
-        color: white;
+        color: rgb(255, 255, 255);
         height: 9rem;
         bottom: 0;
         .footer-bottom {
-            background: black;
+            background: rgb(0, 0, 0);
             text-align: center;
             height: 20%;
+            border-top: 1px solid rgba(128, 128, 128, 0.199);
             p {
+                background-color: black;
                 text-transform: uppercase;
-                opacity: .4;
                 font-weight: 200;
                 font-size: 18px;
             }
