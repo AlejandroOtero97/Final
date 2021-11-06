@@ -29,7 +29,8 @@ nav {
   align-items: center; }
   nav ul {
     display: flex;
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 0; }
   nav ul li {
     border-right: 1px solid gray;
     padding: 1rem; }
@@ -62,11 +63,13 @@ nav {
     padding: .2rem;
     border-radius: .1rem; }
 
-@media (max-width: 1039px) {
+@media (max-width: 1275px) {
   nav {
     position: relative;
     z-index: 5;
     justify-content: flex-start; }
+    nav ul {
+      padding-left: 0; }
   .drawer {
     display: block; }
   nav h1 {
