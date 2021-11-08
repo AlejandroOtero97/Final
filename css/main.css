@@ -211,7 +211,7 @@ footer {
     font-weight: bold;
     font-size: 4em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: -4px 3px 0 #242424, -14px 7px 0 #0a0e27;
+    text-shadow: -4px 3px 0 #242424, -14px 7px 0 #1b1b1b;
     margin-top: 2%;
     text-decoration: underline; }
   .main__alumnos .contenedor__tabla .table {
@@ -220,12 +220,12 @@ footer {
     margin-top: 2%;
     font-size: 20px;
     box-shadow: 0 5px 10px black;
-    background: #005b7e;
-    background: linear-gradient(309deg, #005b7e 0%, black 35%, black 65%, #005b7e 100%); }
+    background: linear-gradient(309deg, #999600 0%, black 35%, black 65%, #999600 100%); }
     .main__alumnos .contenedor__tabla .table td, .main__alumnos .contenedor__tabla .table th {
       padding: 12px 15px;
       border: 2px solid white;
-      text-align: center; }
+      text-align: center;
+      font-weight: bold; }
     .main__alumnos .contenedor__tabla .table th {
       color: #979797;
       text-decoration: wavy;
@@ -243,8 +243,7 @@ footer {
   .main__alumnos .contenedor__tabla .informacion__tabla {
     transform: skewY(-5deg);
     position: relative;
-    background: #005b7e;
-    background: linear-gradient(309deg, #005b7e 0%, black 35%, black 65%, #005b7e 100%);
+    background: linear-gradient(309deg, #999600 0%, black 35%, black 65%, #999600 100%);
     margin-top: 8rem;
     padding: 7%;
     border-bottom: 2px solid white;
@@ -268,7 +267,7 @@ footer {
         font-weight: bold;
         font-size: 3em;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: -4px 3px 0 #242424, -14px 7px 0 #0a0e27; }
+        text-shadow: -4px 3px 0 #242424, -14px 7px 0 #1b1b1b; }
       .main__alumnos .contenedor__tabla .informacion__tabla .informacion__texto p {
         font-size: 1.4em;
         color: white;
@@ -276,8 +275,7 @@ footer {
   .main__alumnos .contenedor__tabla .cursos__tabla {
     transform: skewY(-5deg);
     position: relative;
-    background: #005b7e;
-    background: linear-gradient(309deg, #005b7e 0%, black 35%, black 65%, #005b7e 100%);
+    background: linear-gradient(309deg, #999600 0%, black 35%, black 65%, #999600 100%);
     margin-bottom: 8rem;
     padding: 7%;
     border-bottom: 2px solid white;
@@ -298,7 +296,7 @@ footer {
         font-weight: bold;
         font-size: 3em;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: -4px 3px 0 #242424, -14px 7px 0 #0a0e27; }
+        text-shadow: -4px 3px 0 #242424, -14px 7px 0 #1b1b1b; }
       .main__alumnos .contenedor__tabla .cursos__tabla .cursos__texto li {
         font-size: 2em;
         color: white;
@@ -426,8 +424,7 @@ footer {
   align-items: center;
   justify-content: center; }
   .banner-container .banner {
-    background: #ffd600;
-    background: linear-gradient(309deg, #00ffea 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #00ffea 100%);
+    background: linear-gradient(309deg, #7a6600 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #7a6600 100%);
     border-radius: 100px;
     margin: 10px;
     display: flex;
