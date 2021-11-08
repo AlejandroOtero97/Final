@@ -1,14 +1,9 @@
 .container {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.918);
-    border: 2px solid black;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    color: white;
     .row {
+        display: flex;
+        justify-content: left;
         .col-25 {
+            color: white;
             float: left;
             width: 25%;
             margin-top: 6px;

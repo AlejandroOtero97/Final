@@ -14,6 +14,15 @@ body {
   display: flex;
   flex-direction: column; }
 
+.container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.918);
+  border: 2px solid black;
+  box-shadow: 0 0 20px black;
+  padding: 20px; }
+
 @media (max-width: 1500px) {
   body {
     background-repeat: no-repeat;
@@ -154,16 +163,11 @@ footer {
       footer .footer .footer-content a i {
         transition: color .4s ease; }
 
-.container {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  border-radius: 1em;
-  background-color: rgba(0, 0, 0, 0.918);
-  border: 2px solid black;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  color: white; }
+.container .row {
+  display: flex;
+  justify-content: left; }
   .container .row .col-25 {
+    color: white;
     float: left;
     width: 25%;
     margin-top: 6px; }
@@ -359,6 +363,60 @@ footer {
       .contenedor-fondo .contenedor .carousel-inner .carousel-caption p {
         font-size: 1.4em; }
 
+.container .rower .row {
+  justify-content: center;
+  align-items: center; }
+  .container .rower .row .card-sl {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .container .rower .row .card-sl .card-action {
+      position: relative;
+      float: right;
+      margin-top: -25px;
+      margin-right: 20px;
+      z-index: 2;
+      color: #05ffff;
+      background: #fff;
+      border-radius: 100%;
+      padding: 15px;
+      font-size: 15px;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19); }
+      .container .rower .row .card-sl .card-action:hover {
+        color: #fff;
+        background: #00ffff;
+        animation: pulse 1.5s infinite; }
+    .container .rower .row .card-sl .card-image img {
+      max-height: 100%;
+      max-width: 100%;
+      border-radius: 8px 8px 0px 0; }
+    .container .rower .row .card-sl .card-heading {
+      font-size: 22px;
+      font-weight: bold;
+      background: #e0dfdf;
+      padding: 10px 15px; }
+    .container .rower .row .card-sl .card-text {
+      padding: 10px 15px;
+      background: #fff;
+      font-size: 18px;
+      color: #5f5f5f; }
+    .container .rower .row .card-sl .card-button {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      width: 100%;
+      background-color: #00ffff;
+      color: black;
+      border-radius: 0 0 8px 8px;
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase; }
+      .container .rower .row .card-sl .card-button:hover {
+        text-decoration: none;
+        background-color: #cecece;
+        color: black; }
+
 @media (max-width: 800px) {
   .contenedor-fondo .contenedor .carousel-inner img {
     height: 50vh; } }
@@ -369,7 +427,7 @@ footer {
   justify-content: center; }
   .banner-container .banner {
     background: #ffd600;
-    background: linear-gradient(309deg, #ffd600 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #ffd600 100%);
+    background: linear-gradient(309deg, #00ffea 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #00ffea 100%);
     border-radius: 100px;
     margin: 10px;
     display: flex;
@@ -433,7 +491,7 @@ footer {
             transition: all 500ms ease;
             z-index: -1; }
           .banner-container .banner .content .boton .btn--3:hover {
-            animation: shadow-pulse 1000ms 1;
+            animation: shadow-pulse 1000ms infinite;
             background-color: #ffee00;
             color: #434343; }
       .banner-container .banner .content h1 {
@@ -591,7 +649,7 @@ footer {
       transition: all 500ms ease;
       z-index: -1; }
     .container__entrenamientos .btn--3:hover {
-      animation: shadow-pulses 1000ms 1;
+      animation: shadow-pulses 1000ms infinite;
       background-color: #ffffff;
       color: #434343; }
     .container__entrenamientos .btn a {
@@ -706,3 +764,22 @@ footer {
 @-webkit-keyframes blink-animation {
   to {
     visibility: hidden; } }
+
+@keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(90, 153, 212, 0); }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0); } }

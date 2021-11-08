@@ -33,7 +33,7 @@
             z-index: -1;
         }
         &--3:hover {
-            animation: shadow-pulses 1000ms 1;
+            animation: shadow-pulses 1000ms infinite;
             background-color: #ffffff;
             color: #434343;
         }
