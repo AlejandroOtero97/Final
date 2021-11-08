@@ -32,68 +32,70 @@
     </nav>
   </header>
 
-    <div class="container">
-      <form action="action_page.php">
-        <div class="row">
-          <div class="col-25">
-            <label for="fname">Nombre y Apellido:</label>
+  <main>
+      <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nombre y Apellido:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Ejemplo: Alejandro Otero...">
+            </div>
           </div>
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Ejemplo: Alejandro Otero...">
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Titulo de Profesion:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Ejemplo: Programador Full Stack...">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="lname">Titulo de Profesion:</label>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Pais:</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="argentina">Argentina</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="paraguay">Paraguay</option>
+              </select>
+            </div>
           </div>
-          <div class="col-75">
-            <input type="text" id="lname" name="lastname" placeholder="Ejemplo: Programador Full Stack...">
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Cuentanos de vos!:</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Escribe algo sobre ti..." style="height:200px"></textarea>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="country">Pais:</label>
+          <div class="row">
+            <input type="submit" value="Enviar!">
           </div>
-          <div class="col-75">
-            <select id="country" name="country">
-              <option value="argentina">Argentina</option>
-              <option value="uruguay">Uruguay</option>
-              <option value="paraguay">Paraguay</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="subject">Cuentanos de vos!:</label>
-          </div>
-          <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Escribe algo sobre ti..." style="height:200px"></textarea>
-          </div>
-        </div>
-        <div class="row">
-          <input type="submit" value="Enviar!">
-        </div>
-        </form>
-    </div> 
+          </form>
+      </div> 
+  </main>
 
-    <footer>
-      <div class="footer">
-        <div class="footer-content">
-          <h3>MoebiuzGym</h3>
+  <footer>
+    <div class="footer">
+      <div class="footer-content">
+        <h3>MoebiuzGym</h3>
           <p>COME - DESCANSA - ENTRENA - REPITE</p>
-          <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-          </ul>
-        </div>
-        <div class="footer-bottom">
-          <p>Copyright &copy;2020 moebiuzGym. designed by <span>Alejandro Otero</span></p>
-        </div>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
       </div>
-    </footer>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2020 moebiuzGym. designed by <span>Alejandro Otero</span></p>
+      </div>
+    </div>
+  </footer>
 
 <script src="../bootstrap/js/bootstrap.js"></script>
 </body>
