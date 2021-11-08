@@ -479,7 +479,7 @@ footer {
         .contenedor__staff .image__contenedor .image .image__overlay .image__title {
           font-size: 3em;
           font-weight: bold; }
-        .contenedor__staff .image__contenedor .image .image__overlay .image__description {
+        .contenedor__staff .image__contenedor .image .image__overlay p {
           font-size: 1.5em;
           text-align: center;
           margin-top: 0.3em; }
