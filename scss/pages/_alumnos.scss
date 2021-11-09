@@ -19,7 +19,7 @@
 			margin-top: 2%;
 			font-size: 20px;
 			box-shadow: 0 5px 10px black;
-			background: linear-gradient(310deg, rgba(37,56,84,1) 7%, rgba(15,126,177,1) 33%, rgba(17,121,170,1) 33%, rgba(199,199,199,1) 60%, rgba(242,89,68,1) 77%);
+			background: linear-gradient(122deg, rgba(2,136,225,1) 7%, rgba(15,126,177,1) 29%, rgba(255,255,255,1) 44%, rgba(199,199,199,1) 60%, rgb(252, 126, 43) 77%, rgb(255, 118, 27) 88%);
 			td,th{
 				padding: 12px 15px;
 				border: 2px solid rgb(255, 255, 255);
@@ -51,7 +51,7 @@
 		.informacion__tabla {
 			transform: skewY(-5deg);
 			position: relative;
-			background: linear-gradient(310deg, rgba(37,56,84,1) 7%, rgba(15,126,177,1) 33%, rgba(17,121,170,1) 33%, rgba(199,199,199,1) 60%, rgba(242,89,68,1) 77%);
+			background: linear-gradient(122deg, rgba(2,136,225,1) 7%, rgba(15,126,177,1) 29%, rgba(255,255,255,1) 44%, rgba(199,199,199,1) 60%, rgba(242,99,1,1) 77%, rgba(242,99,1,1) 88%);
 			margin-top: 8rem;
 			padding: 7%;
 			border-bottom: 2px solid white;
@@ -69,7 +69,7 @@
 					color: #02ff02;
 				}
 				h2 {
-					color: white;
+					color: rgb(184, 184, 184);
 					text-transform: uppercase;
 					margin-bottom: 2%;
 					text-align: center;
@@ -77,11 +77,11 @@
 					font-weight: bold;
 					font-size: 3em;
 					font-family: Georgia, 'Times New Roman', Times, serif;
-					text-shadow: -4px 3px 0 #242424, -14px 7px 0 #1b1b1b;
+					text-shadow: -4px 3px 0 #242424, -14px 7px 0 #2f3e83;
 				}
 				p {
 					font-size: 1.4em;
-					color: rgb(255, 255, 255);
+					color: rgb(58, 58, 58);
 					font-weight: bold;
 				}
 			}
@@ -89,7 +89,7 @@
 		.cursos__tabla {
 			transform: skewY(-5deg);
 			position: relative;
-			background: linear-gradient(310deg, rgba(37,56,84,1) 7%, rgba(15,126,177,1) 33%, rgba(17,121,170,1) 33%, rgba(199,199,199,1) 60%, rgba(242,89,68,1) 77%);
+			background: linear-gradient(122deg, rgba(2,136,225,1) 7%, rgba(15,126,177,1) 29%, rgba(255,255,255,1) 44%, rgba(199,199,199,1) 60%, rgba(242,99,1,1) 77%, rgba(242,99,1,1) 88%);
 			margin-bottom: 8rem;
 			padding: 7%;
 			border-bottom: 2px solid white;
@@ -102,7 +102,7 @@
 				position: relative;
 				overflow: hidden;
 				h3 {
-					color: white;
+					color: rgb(184, 184, 184);
 					text-transform: uppercase;
 					margin-bottom: 2%;
 					text-align: center;
@@ -110,11 +110,11 @@
 					font-weight: bold;
 					font-size: 3em;
 					font-family: Georgia, 'Times New Roman', Times, serif;
-					text-shadow: -4px 3px 0 #242424, -14px 7px 0 #1b1b1b;
+					text-shadow: -4px 3px 0 #242424, -14px 7px 0 #2f3e83;
 				}
 				li {
 					font-size: 2em;
-					color: white;
+					color: rgb(58, 58, 58);
 					font-weight: bold;
 					text-align: center;
 					list-style: square;
