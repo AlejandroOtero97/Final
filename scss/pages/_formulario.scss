@@ -36,12 +36,17 @@
     }
 }
 
-@media screen and (max-width: 1035px) {
+@media(max-width: 1035px) {
     .container {
         position: relative;
-    }
-    .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
+        .row {
+            .col-25, .col-75, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+                label {
+                    font-size: 20px;
+                }
+            }
+        }
     }
 } 

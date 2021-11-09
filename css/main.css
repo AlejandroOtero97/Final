@@ -194,12 +194,14 @@ footer {
     cursor: pointer;
     max-width: 50%; }
 
-@media screen and (max-width: 1035px) {
+@media (max-width: 1035px) {
   .container {
     position: relative; }
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0; } }
+    .container .row .col-25, .container .row .col-75, .container .row input[type=submit] {
+      width: 100%;
+      margin-top: 0; }
+      .container .row .col-25 label, .container .row .col-75 label, .container .row input[type=submit] label {
+        font-size: 20px; } }
 
 .main__alumnos {
   background-color: rgba(0, 0, 0, 0.795); }
@@ -416,8 +418,10 @@ footer {
         color: black; }
 
 @media (max-width: 800px) {
-  .contenedor-fondo .contenedor .carousel-inner img {
-    height: 50vh; } }
+  .contenedor-fondo {
+    display: none; }
+    .contenedor-fondo .contenedor .carousel-inner img {
+      height: 50vh; } }
 
 .banner-container {
   display: flex;
