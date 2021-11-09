@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     .banner {
-        background: linear-gradient(309deg, rgb(122, 102, 0) 0%, rgba(255,214,0,1) 25%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(255,214,0,1) 75%, rgb(122, 102, 0) 100%);
+        background: linear-gradient(307deg, rgba(2,136,225,1) 7%, rgba(15,126,177,1) 29%, rgba(255,255,255,1) 47%, rgba(199,199,199,1) 64%, rgba(242,99,1,1) 82%, rgba(242,99,1,1) 82%);
         border-radius: 100px;
         margin: 10px;
         display: flex;
@@ -12,6 +12,7 @@
         flex-wrap: wrap;
         box-shadow: 0 5px 10px black;
         overflow: hidden;
+        width: 85%;
         .muscle {
             position: relative;
             bottom: -33px;
@@ -23,10 +24,9 @@
         }
         .logo {
             flex: 1 1 250px;
-            padding: 15px;
             text-align: center;
             img {
-                width: 95%;
+                width: 70%;
             }
         }
         .content {
@@ -46,12 +46,12 @@
                     border-radius: 4px;
                     text-transform: uppercase;
                     background-color: transparent;
-                    color: #fff;
+                    color: #B5000B;
                     font-size: 18px;
                     overflow: hidden;
                     transition: all 500ms ease;
-                    border: 2px solid #ffd900;
-                    background: black;
+                    border: 2px solid #5a0006;
+                    background: white;
                     margin-bottom: 40px;
                     z-index: 0;
                     font-weight: 700;
@@ -68,27 +68,27 @@
                         right: 0;
                         top: 0;
                         margin: auto;
-                        background-color: #fffb00;
+                        background-color: #B5000B;
                         transition: all 500ms ease;
                         z-index: -1;
                     }
                     &--3:hover {
                         animation: shadow-pulse 1000ms infinite;
-                        background-color: #ffee00;
-                        color: #434343;
+                        background-color: #B5000B;
+                        color: white;
                     }
                 }
             }
             h1 {
-                color: white;
+                color: black;
                 font-size: 25px;
             }
             h2 {
-                color: white;
+                color: black;
                 font-size: 40px;
             }
             p {
-                color: white;
+                color: black;
                 font-size: 20px;
                 padding: 10px 0;
             }

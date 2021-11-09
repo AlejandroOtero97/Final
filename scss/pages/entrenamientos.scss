@@ -12,12 +12,12 @@
         width: 280px;
         border-radius: 4px;
         text-transform: uppercase;
-        color: #fff;
+        color: #F25944;
         font-size: 18px;
         overflow: hidden;
         transition: all 500ms ease;
-        border: 2px solid #ffffff;
-        background: rgb(26, 26, 26);
+        border: 2px solid #F25944;
+        background: #92bed6;
         margin-bottom: 40px;
         font-weight: 900;
         cursor: pointer;
@@ -35,7 +35,7 @@
         &--3:hover {
             animation: shadow-pulses 1000ms infinite;
             background-color: #ffffff;
-            color: #434343;
+            color: #F25944;
         }
         a {
             color: inherit;
@@ -48,7 +48,7 @@
     }
     .ficha {
         box-shadow: 0 5px 10px 5px black;
-        background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgb(185, 185, 185) 50%, rgba(0,0,0,1) 100%);
+        background: linear-gradient(310deg, rgba(0,113,189,1) 7%, rgba(15,126,177,1) 33%, rgba(146,190,214,1) 40%, rgba(199,199,199,1) 64%, rgba(242,99,1,1) 82%);
         color: black;
         border-radius: 15px;
         border: 1px solid white;
@@ -74,7 +74,7 @@
     }
     .ficha__2 {
         box-shadow: 0 5px 10px 5px black;
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(255, 255, 255) 50%, rgba(0,0,0,1) 100%);
+        background: linear-gradient(130deg, rgba(0,113,189,1) 7%, rgba(15,126,177,1) 33%, rgba(146,190,214,1) 40%, rgba(199,199,199,1) 64%, rgba(242,99,1,1) 82%);
         color: white;
         border-radius: 15px;
         border: 1px solid white;

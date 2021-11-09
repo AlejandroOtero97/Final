@@ -19,7 +19,7 @@
 			margin-top: 2%;
 			font-size: 20px;
 			box-shadow: 0 5px 10px black;
-			background: linear-gradient(309deg, rgb(153, 150, 0) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 65%, rgb(153, 150, 0) 100%);
+			background: linear-gradient(310deg, rgba(37,56,84,1) 7%, rgba(15,126,177,1) 33%, rgba(17,121,170,1) 33%, rgba(199,199,199,1) 60%, rgba(242,89,68,1) 77%);
 			td,th{
 				padding: 12px 15px;
 				border: 2px solid rgb(255, 255, 255);
@@ -27,9 +27,10 @@
 				font-weight: bold;
 			}
 			th{
-				color:#979797;
+				color: rgb(43, 43, 43);
 				text-decoration: wavy;
 				font-size: 25px;
+				text-transform: uppercase;
 			}
 			tbody tr:nth-child(even){
 				color: #02ff02;
@@ -50,7 +51,7 @@
 		.informacion__tabla {
 			transform: skewY(-5deg);
 			position: relative;
-			background: linear-gradient(309deg, rgb(153, 150, 0) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 65%, rgb(153, 150, 0) 100%);
+			background: linear-gradient(310deg, rgba(37,56,84,1) 7%, rgba(15,126,177,1) 33%, rgba(17,121,170,1) 33%, rgba(199,199,199,1) 60%, rgba(242,89,68,1) 77%);
 			margin-top: 8rem;
 			padding: 7%;
 			border-bottom: 2px solid white;
@@ -80,7 +81,7 @@
 				}
 				p {
 					font-size: 1.4em;
-					color: white;
+					color: rgb(255, 255, 255);
 					font-weight: bold;
 				}
 			}
@@ -88,7 +89,7 @@
 		.cursos__tabla {
 			transform: skewY(-5deg);
 			position: relative;
-			background: linear-gradient(309deg, rgb(153, 150, 0) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 65%, rgb(153, 150, 0) 100%);
+			background: linear-gradient(310deg, rgba(37,56,84,1) 7%, rgba(15,126,177,1) 33%, rgba(17,121,170,1) 33%, rgba(199,199,199,1) 60%, rgba(242,89,68,1) 77%);
 			margin-bottom: 8rem;
 			padding: 7%;
 			border-bottom: 2px solid white;

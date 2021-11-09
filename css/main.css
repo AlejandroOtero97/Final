@@ -185,11 +185,11 @@ footer {
     resize: vertical; }
   .container .row input[type=submit] {
     background-color: #000000;
-    color: yellow;
+    color: #ff8331;
     padding: 12px 20px;
     margin-top: 1rem;
     margin-left: 25%;
-    border: 3px solid yellow;
+    border: 3px solid #ff822e;
     border-radius: 4px;
     cursor: pointer;
     max-width: 50%; }
@@ -222,16 +222,17 @@ footer {
     margin-top: 2%;
     font-size: 20px;
     box-shadow: 0 5px 10px black;
-    background: linear-gradient(309deg, #999600 0%, black 35%, black 65%, #999600 100%); }
+    background: linear-gradient(310deg, #253854 7%, #0f7eb1 33%, #1179aa 33%, #c7c7c7 60%, #f25944 77%); }
     .main__alumnos .contenedor__tabla .table td, .main__alumnos .contenedor__tabla .table th {
       padding: 12px 15px;
       border: 2px solid white;
       text-align: center;
       font-weight: bold; }
     .main__alumnos .contenedor__tabla .table th {
-      color: #979797;
+      color: #2b2b2b;
       text-decoration: wavy;
-      font-size: 25px; }
+      font-size: 25px;
+      text-transform: uppercase; }
     .main__alumnos .contenedor__tabla .table tbody tr:nth-child(even) {
       color: #02ff02; }
       .main__alumnos .contenedor__tabla .table tbody tr:nth-child(even) :hover {
@@ -245,7 +246,7 @@ footer {
   .main__alumnos .contenedor__tabla .informacion__tabla {
     transform: skewY(-5deg);
     position: relative;
-    background: linear-gradient(309deg, #999600 0%, black 35%, black 65%, #999600 100%);
+    background: linear-gradient(310deg, #253854 7%, #0f7eb1 33%, #1179aa 33%, #c7c7c7 60%, #f25944 77%);
     margin-top: 8rem;
     padding: 7%;
     border-bottom: 2px solid white;
@@ -277,7 +278,7 @@ footer {
   .main__alumnos .contenedor__tabla .cursos__tabla {
     transform: skewY(-5deg);
     position: relative;
-    background: linear-gradient(309deg, #999600 0%, black 35%, black 65%, #999600 100%);
+    background: linear-gradient(310deg, #253854 7%, #0f7eb1 33%, #1179aa 33%, #c7c7c7 60%, #f25944 77%);
     margin-bottom: 8rem;
     padding: 7%;
     border-bottom: 2px solid white;
@@ -377,7 +378,7 @@ footer {
       margin-top: -25px;
       margin-right: 20px;
       z-index: 2;
-      color: #05ffff;
+      color: #0288e1;
       background: #fff;
       border-radius: 100%;
       padding: 15px;
@@ -385,7 +386,7 @@ footer {
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19); }
       .container .rower .row .card-sl .card-action:hover {
         color: #fff;
-        background: #00ffff;
+        background: #0288e1;
         animation: pulse 1.5s infinite; }
     .container .rower .row .card-sl .card-image img {
       max-height: 100%;
@@ -406,7 +407,7 @@ footer {
       justify-content: center;
       padding: 10px 0;
       width: 100%;
-      background-color: #00ffff;
+      background-color: #ff8737;
       color: black;
       border-radius: 0 0 8px 8px;
       font-weight: bold;
@@ -428,7 +429,7 @@ footer {
   align-items: center;
   justify-content: center; }
   .banner-container .banner {
-    background: linear-gradient(309deg, #7a6600 0%, #ffd600 25%, black 30%, black 70%, #ffd600 75%, #7a6600 100%);
+    background: linear-gradient(307deg, #0288e1 7%, #0f7eb1 29%, white 47%, #c7c7c7 64%, #f26301 82%, #f26301 82%);
     border-radius: 100px;
     margin: 10px;
     display: flex;
@@ -436,7 +437,8 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     box-shadow: 0 5px 10px black;
-    overflow: hidden; }
+    overflow: hidden;
+    width: 85%; }
     .banner-container .banner .muscle {
       position: relative;
       bottom: -33px;
@@ -446,10 +448,9 @@ footer {
         width: 85%; }
     .banner-container .banner .logo {
       flex: 1 1 250px;
-      padding: 15px;
       text-align: center; }
       .banner-container .banner .logo img {
-        width: 95%; }
+        width: 70%; }
     .banner-container .banner .content {
       flex: 1 1 250px;
       text-align: center;
@@ -467,12 +468,12 @@ footer {
           border-radius: 4px;
           text-transform: uppercase;
           background-color: transparent;
-          color: #fff;
+          color: #B5000B;
           font-size: 18px;
           overflow: hidden;
           transition: all 500ms ease;
-          border: 2px solid #ffd900;
-          background: black;
+          border: 2px solid #5a0006;
+          background: white;
           margin-bottom: 40px;
           z-index: 0;
           font-weight: 700;
@@ -488,21 +489,21 @@ footer {
             right: 0;
             top: 0;
             margin: auto;
-            background-color: #fffb00;
+            background-color: #B5000B;
             transition: all 500ms ease;
             z-index: -1; }
           .banner-container .banner .content .boton .btn--3:hover {
             animation: shadow-pulse 1000ms infinite;
-            background-color: #ffee00;
-            color: #434343; }
+            background-color: #B5000B;
+            color: white; }
       .banner-container .banner .content h1 {
-        color: white;
+        color: black;
         font-size: 25px; }
       .banner-container .banner .content h2 {
-        color: white;
+        color: black;
         font-size: 40px; }
       .banner-container .banner .content p {
-        color: white;
+        color: black;
         font-size: 20px;
         padding: 10px 0; }
 
@@ -515,7 +516,7 @@ footer {
 
 .contenedor__staff .image__contenedor {
   width: 100%;
-  background-image: linear-gradient(#BA1B8A, black);
+  background-image: linear-gradient(#f26301, black);
   transform: skewY(-5deg);
   margin-top: -2px;
   padding: 15%; }
@@ -577,15 +578,15 @@ footer {
       animation: blink-animation 1s steps(5, start) infinite;
       -webkit-animation: blink-animation 1s steps(5, start) infinite;
       text-decoration: underline;
-      color: #00fff2; }
+      color: #0071bd; }
 
 .contenedor__staff .contenedor__extra {
   transform: skewY(-5deg);
   position: relative;
-  background-image: linear-gradient(black, #BA1B8A);
+  background-image: linear-gradient(black, #f26301);
   padding: 15%; }
   .contenedor__staff .contenedor__extra .contenedor__texto__extra {
-    background-color: #242424;
+    background-color: #6b6b6b;
     color: white;
     position: relative;
     text-align: center;
@@ -599,11 +600,11 @@ footer {
     .contenedor__staff .contenedor__extra .contenedor__texto__extra h2 {
       font-size: 65px; }
     .contenedor__staff .contenedor__extra .contenedor__texto__extra strong {
-      color: cyan;
+      color: #0071bd;
       background-color: black; }
       .contenedor__staff .contenedor__extra .contenedor__texto__extra strong:hover {
         color: black;
-        background-color: #00fff2;
+        background-color: #0071bd;
         transition: 1s ease; }
 
 @media (max-width: 1150px) {
@@ -646,12 +647,12 @@ footer {
     width: 280px;
     border-radius: 4px;
     text-transform: uppercase;
-    color: #fff;
+    color: #F25944;
     font-size: 18px;
     overflow: hidden;
     transition: all 500ms ease;
-    border: 2px solid #ffffff;
-    background: #1a1a1a;
+    border: 2px solid #F25944;
+    background: #92bed6;
     margin-bottom: 40px;
     font-weight: 900;
     cursor: pointer; }
@@ -668,7 +669,7 @@ footer {
     .container__entrenamientos .btn--3:hover {
       animation: shadow-pulses 1000ms infinite;
       background-color: #ffffff;
-      color: #434343; }
+      color: #F25944; }
     .container__entrenamientos .btn a {
       color: inherit;
       text-decoration: none; }
@@ -677,7 +678,7 @@ footer {
     transition: ease 0.2s; }
   .container__entrenamientos .ficha {
     box-shadow: 0 5px 10px 5px black;
-    background: linear-gradient(90deg, black 10%, #b9b9b9 50%, black 100%);
+    background: linear-gradient(310deg, #0071bd 7%, #0f7eb1 33%, #92bed6 40%, #c7c7c7 64%, #f26301 82%);
     color: black;
     border-radius: 15px;
     border: 1px solid white;
@@ -699,7 +700,7 @@ footer {
       border: 1px solid white; }
   .container__entrenamientos .ficha__2 {
     box-shadow: 0 5px 10px 5px black;
-    background: linear-gradient(90deg, black 0%, white 50%, black 100%);
+    background: linear-gradient(130deg, #0071bd 7%, #0f7eb1 33%, #92bed6 40%, #c7c7c7 64%, #f26301 82%);
     color: white;
     border-radius: 15px;
     border: 1px solid white;
@@ -770,7 +771,7 @@ footer {
 
 @keyframes shadow-pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.973); }
+    box-shadow: 0 0 0 0 #B5000B; }
   100% {
     box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0); } }
 
