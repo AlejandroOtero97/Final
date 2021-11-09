@@ -16,7 +16,7 @@
             margin-left: auto;
             margin-right: auto;
             box-shadow: 0 10px 15px black;
-            .image__img {
+            img {
                 display: block;
                 width: 100%;
             }
@@ -113,25 +113,31 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width: 1150px) {
+    .contenedor__staff {
+        .image__contenedor {
+            margin-bottom: 5%;
+            .image {
+                img {
+                    display: none;
+                }
+                .image__overlay {
+                    opacity: 1;
+                    position: relative;
+                    background-color: rgb(36, 36, 36);
+                    box-shadow: 0 5px 10px black;
+                    .image__title{
+                        font-size: 35px;
+                        text-align: center;
+                    }
+                    p {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media(max-width: 800px) {
     .contenedor__staff {
